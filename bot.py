@@ -77,5 +77,119 @@ def handle_message(message: dict):
         payment = message["successful_payment"]
         send_message(
             chat_id,
-            "✅ پرداخت با موفقیت انجام شد.\n\n"
-            "🔐 پلن
+            f"""✅ پرداخت با موفقیت انجام شد.
+
+🔐 پلن خریداری‌شده: AnyConnect دو کاربره
+📅 مدت: 1 ماهه
+⚡ حجم: نامحدود
+💰 مبلغ: {payment.get('total_amount')} Stars
+
+📩 حالا برای دریافت اکانت به پشتیبانی پیام دهید:
+{SUPPORT_USERNAME}""",
+            reply_markup=KEYBOARD
+        )
+        return
+
+    if text == "/start":
+        user_mode.pop(user_id, None)
+        send_message(
+            chat_id,
+            """🔥 به ربات Iran AnyConnect خوش اومدی
+
+اول روش خریدت رو انتخاب کن:""",
+            reply_markup=KEYBOARD
+        )
+
+    elif text == "خرید با کریپتو":
+        user_mode[user_id] = "crypto"
+        send_message(
+            chat_id,
+            """💳 پرداخت با کریپتو انتخاب شد.
+حالا روی «خرید VPN» بزن.""",
+            reply_markup=KEYBOARD
+        )
+
+    elif text == "خرید با Stars":
+        user_mode[user_id] = "stars"
+        send_message(
+            chat_id,
+            """⭐️ پرداخت با Stars انتخاب شد.
+حالا روی «خرید VPN» بزن.""",
+            reply_markup=KEYBOARD
+        )
+
+    elif text == "خرید VPN":
+        mode = user_mode.get(user_id)
+
+        if mode == "stars":
+            send_invoice(chat_id, user_id)
+
+        elif mode == "crypto":
+            send_message(
+                chat_id,
+                f"""🔐 اشتراک AnyConnect دو کاربره
+
+📅 مدت: 1 ماهه
+⚡ حجم: نامحدود
+💰 قیمت: 12,000,000 تومان
+
+💳 پرداخت فقط با ارز دیجیتال
+📩 برای پرداخت با پشتیبانی هماهنگ کنید:
+{SUPPORT_USERNAME}""",
+                reply_markup=KEYBOARD
+            )
+
+        else:
+            send_message(
+                chat_id,
+                """اول روش خریدت رو انتخاب کن:
+«خرید با کریپتو» یا «خرید با Stars»""",
+                reply_markup=KEYBOARD
+            )
+
+    elif text == "پشتیبانی":
+        send_message(
+            chat_id,
+            f"📩 {SUPPORT_USERNAME}",
+            reply_markup=KEYBOARD
+        )
+
+    else:
+        send_message(
+            chat_id,
+            "یکی از دکمه‌ها را انتخاب کن.",
+            reply_markup=KEYBOARD
+        )
+
+
+def handle_update(update: dict):
+    if "pre_checkout_query" in update:
+        answer_pre_checkout_query(update["pre_checkout_query"]["id"])
+        return
+
+    if "message" in update:
+        handle_message(update["message"])
+
+
+def main():
+    offset = None
+
+    while True:
+        try:
+            params = {"timeout": 60}
+            if offset is not None:
+                params["offset"] = offset
+
+            data = tg_get("getUpdates", params)
+            if data.get("ok"):
+                for update in data.get("result", []):
+                    offset = update["update_id"] + 1
+                    handle_update(update)
+
+        except Exception as e:
+            print("Error:", e)
+            time.sleep(5)
+
+
+if __name__ == "__main__":
+    main()
