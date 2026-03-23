@@ -31,7 +31,7 @@ def handle_message(message):
     elif text == "خرید VPN":
         send_message(
             chat_id,
-            "🔐 اشتراک AnyConnect\n\n"
+            "🔐 اشتراک دو کاربرهAnyConnect\n\n"
             "📅 مدت: 1 ماهه\n"
             "⚡ حجم: نامحدود\n"
             "💰 قیمت: 12,000,000 تومان\n\n"
