@@ -2,7 +2,7 @@ from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 import os
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.environ.get("TOKEN")
 
 keyboard = [["خرید VPN", "پشتیبانی"]]
 
@@ -19,14 +19,14 @@ async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "📅 مدت: 1 ماهه\n"
             "⚡ حجم: نامحدود\n"
             "💰 قیمت: 12,000,000 تومان\n\n"
-            "💳 روش پرداخت: فقط ارز دیجیتال (USDT)\n"
-            "📩 برای پرداخت و دریافت اکانت با پشتیبانی هماهنگ کنید:\n"
-            "@Natar100\n\n"
-            "🎁 تست رایگان کوتاه مدت هم موجود است"
+            "💳 پرداخت: فقط ارز دیجیتال (USDT)\n"
+            "📩 برای خرید پیام بده:\n"
+            "@Natar100"
         )
 
     elif text == "پشتیبانی":
         await update.message.reply_text("آیدی پشتیبانی: @Natar100")
+
 
 app = ApplicationBuilder().token(TOKEN).build()
 
