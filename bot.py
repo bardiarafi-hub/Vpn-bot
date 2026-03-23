@@ -8,13 +8,13 @@ if not TOKEN:
     raise ValueError("TOKEN environment variable is missing")
 
 BASE_URL = f"https://api.telegram.org/bot{TOKEN}"
-
 SUPPORT_USERNAME = "@Natar100"
 STARS_PRICE = 4000
 
 KEYBOARD = {
     "keyboard": [
         [{"text": "خرید با Stars"}, {"text": "خرید کریپتو"}],
+        [{"text": "خرید VPN"}],
         [{"text": "پشتیبانی"}]
     ],
     "resize_keyboard": True
@@ -90,16 +90,24 @@ def handle_message(message: dict):
 
     elif text == "خرید با Stars":
         user_mode[user_id] = "stars"
-        send_message(chat_id, "⭐️ پرداخت با Stars انتخاب شد.\nحالا روی «خرید VPN» بزن.", reply_markup=KEYBOARD)
+        send_message(
+            chat_id,
+            "⭐️ پرداخت با Stars انتخاب شد.\nحالا روی «خرید VPN» بزن.",
+            reply_markup=KEYBOARD
+        )
 
     elif text == "خرید کریپتو":
         user_mode[user_id] = "crypto"
-        send_message(chat_id, "💳 پرداخت با کریپتو انتخاب شد.\nحالا روی «خرید VPN» بزن.", reply_markup=KEYBOARD)
+        send_message(
+            chat_id,
+            "💳 پرداخت با کریپتو انتخاب شد.\nحالا روی «خرید VPN» بزن.",
+            reply_markup=KEYBOARD
+        )
 
     elif text == "خرید VPN":
         if user_mode.get(user_id) == "stars":
             send_invoice(chat_id, user_id)
-        else:
+        elif user_mode.get(user_id) == "crypto":
             send_message(
                 chat_id,
                 "🔐 اشتراک AnyConnect\n\n"
@@ -109,6 +117,12 @@ def handle_message(message: dict):
                 "💳 پرداخت فقط با ارز دیجیتال\n"
                 "📩 برای پرداخت با پشتیبانی هماهنگ کنید:\n"
                 f"{SUPPORT_USERNAME}",
+                reply_markup=KEYBOARD
+            )
+        else:
+            send_message(
+                chat_id,
+                "اول روش خریدت رو انتخاب کن:\n«خرید با Stars» یا «خرید کریپتو»",
                 reply_markup=KEYBOARD
             )
 
