@@ -19,7 +19,7 @@ async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "📅 مدت: 1 ماهه\n"
             "⚡ حجم: نامحدود\n"
             "💰 قیمت: 12,000,000 تومان\n\n"
-            "💳 پرداخت: فقط ارز دیجیتال (USDT)\n"
+            "💳 پرداخت: فقط ارز دیجیتال\n"
             "📩 برای خرید پیام بده:\n"
             "@Natar100"
         )
@@ -31,6 +31,6 @@ async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
 app = ApplicationBuilder().token(TOKEN).build()
 
 app.add_handler(CommandHandler("start", start))
-app.add_handler(MessageHandler(filters.TEXT, handle))
+app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle))
 
 app.run_polling()
