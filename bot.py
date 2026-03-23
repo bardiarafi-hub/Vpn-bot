@@ -19,18 +19,20 @@ async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "📅 مدت: 1 ماهه\n"
             "⚡ حجم: نامحدود\n"
             "💰 قیمت: 12,000,000 تومان\n\n"
-            "💳 پرداخت: فقط ارز دیجیتال\n"
-            "📩 برای خرید پیام بده:\n"
+            "💳 پرداخت فقط با ارز دیجیتال\n"
+            "📩 برای پرداخت با پشتیبانی هماهنگ کنید:\n"
             "@Natar100"
         )
-
     elif text == "پشتیبانی":
         await update.message.reply_text("آیدی پشتیبانی: @Natar100")
+    else:
+        await update.message.reply_text("یکی از دکمه‌ها را انتخاب کن.")
 
+def main():
+    app = ApplicationBuilder().token(TOKEN).build()
+    app.add_handler(CommandHandler("start", start))
+    app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle))
+    app.run_polling(drop_pending_updates=True)
 
-app = ApplicationBuilder().token(TOKEN).build()
-
-app.add_handler(CommandHandler("start", start))
-app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle))
-
-app.run_polling()
+if __name__ == "__main__":
+    main()
