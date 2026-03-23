@@ -47,7 +47,7 @@ def send_invoice(chat_id: int, user_id: int):
     tg_post("sendInvoice", {
         "chat_id": chat_id,
         "title": "Iran AnyConnect - 1 Month",
-        "description": "اشتراک 1 ماهه AnyConnect - حجم نامحدود",
+        "description": "اشتراک 1 ماهه دو کاربرهAnyConnect - حجم نامحدود",
         "payload": payload,
         "provider_token": "",
         "currency": "XTR",
