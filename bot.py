@@ -138,7 +138,9 @@ CATALOG = {
         "title": "🌐 خدمات VPN\nاختر النوع:",
         "buttons": [
             "WireGuard",
-            "VLESS مع 10 مواقع IP",
+            "VLESS - 10 IP 🌍",
+            "OpenVPN for 10 devices",
+            "NordVPN for 10 devices",
             "⬅️ رجوع"
         ],
     },
@@ -153,11 +155,31 @@ CATALOG = {
         ],
     },
 
-    "VLESS مع 10 مواقع IP": {
-        "title": "🌐 VLESS مع 10 مواقع IP\nاختر الخطة:",
+    "VLESS - 10 IP 🌍": {
+        "title": "🌐 VLESS - 10 IP 🌍\nاختر الخطة:",
         "buttons": [
             "VLESS - 1 شهر - $6",
             "VLESS - 3 أشهر - $15",
+            "⬅️ رجوع"
+        ],
+    },
+
+    "OpenVPN for 10 devices": {
+        "title": "🌐 OpenVPN for 10 devices\nاختر الخطة:",
+        "buttons": [
+            "OpenVPN - 1 Month - $8",
+            "OpenVPN - 3 Month - $16",
+            "OpenVPN - 6 Month - $28",
+            "⬅️ رجوع"
+        ],
+    },
+
+    "NordVPN for 10 devices": {
+        "title": "🌐 NordVPN for 10 devices\nاختر الخطة:",
+        "buttons": [
+            "NordVPN - 6 Month - $12",
+            "NordVPN - 1 Year - $22",
+            "NordVPN - 2 Years - $42",
             "⬅️ رجوع"
         ],
     },
@@ -311,6 +333,7 @@ CATALOG = {
         "buttons": [
             "Steam - Saudi Arabia",
             "Steam - UAE",
+            "Steam - USA",
             "⬅️ رجوع"
         ],
     },
@@ -341,6 +364,18 @@ CATALOG = {
             "Steam UAE - 234.60 AED - $84",
             "Steam UAE - 469.40 AED - $166",
             "Steam UAE - 938.90 AED - $326",
+            "⬅️ رجوع"
+        ],
+    },
+
+    "Steam - USA": {
+        "title": "🎮 Steam - USA\nاختر البطاقة:",
+        "buttons": [
+            "Steam USA - $2 - $3.5",
+            "Steam USA - $5 - $6.5",
+            "Steam USA - $10 - $12",
+            "Steam USA - $20 - $24",
+            "Steam USA - $50 - $55",
             "⬅️ رجوع"
         ],
     },
@@ -400,7 +435,9 @@ PARENT = {
     "🆕 إنشاء حسابات ChatGPT": MAIN_MENU,
     "🌐 VPN": MAIN_MENU,
     "WireGuard": "🌐 VPN",
-    "VLESS مع 10 مواقع IP": "🌐 VPN",
+    "VLESS - 10 IP 🌍": "🌐 VPN",
+    "OpenVPN for 10 devices": "🌐 VPN",
+    "NordVPN for 10 devices": "🌐 VPN",
     "⭐ Telegram Stars": MAIN_MENU,
     "🎮 PUBG Mobile": MAIN_MENU,
     "🎮 PUBG UC": "🎮 PUBG Mobile",
@@ -415,6 +452,7 @@ PARENT = {
     "🎮 Steam": MAIN_MENU,
     "Steam - Saudi Arabia": "🎮 Steam",
     "Steam - UAE": "🎮 Steam",
+    "Steam - USA": "🎮 Steam",
     "🛒 Amazon": MAIN_MENU,
     "Amazon - Saudi Arabia": "🛒 Amazon",
     "Amazon - UAE": "🛒 Amazon",
@@ -471,8 +509,35 @@ PRODUCTS = {
     "WireGuard - 1 شهر - $5": {"text": "🌐 WireGuard\n📅 المدة: 1 شهر\n💵 السعر: $5", "flow": "proof"},
     "WireGuard - 3 أشهر - $9": {"text": "🌐 WireGuard\n📅 المدة: 3 أشهر\n💵 السعر: $9", "flow": "proof"},
     "WireGuard - 6 أشهر - $16": {"text": "🌐 WireGuard\n📅 المدة: 6 أشهر\n💵 السعر: $16", "flow": "proof"},
-    "VLESS - 1 شهر - $6": {"text": "🌐 VLESS مع 10 مواقع IP\n📅 المدة: 1 شهر\n💵 السعر: $6", "flow": "proof"},
-    "VLESS - 3 أشهر - $15": {"text": "🌐 VLESS مع 10 مواقع IP\n📅 المدة: 3 أشهر\n💵 السعر: $15", "flow": "proof"},
+
+    "VLESS - 1 شهر - $6": {"text": "🌐 VLESS - 10 IP 🌍\n📅 المدة: 1 شهر\n💵 السعر: $6", "flow": "proof"},
+    "VLESS - 3 أشهر - $15": {"text": "🌐 VLESS - 10 IP 🌍\n📅 المدة: 3 أشهر\n💵 السعر: $15", "flow": "proof"},
+
+    "OpenVPN - 1 Month - $8": {
+        "text": "🌐 OpenVPN for 10 devices\n📅 المدة: 1 Month\n💵 السعر: $8",
+        "flow": "proof"
+    },
+    "OpenVPN - 3 Month - $16": {
+        "text": "🌐 OpenVPN for 10 devices\n📅 المدة: 3 Month\n💵 السعر: $16",
+        "flow": "proof"
+    },
+    "OpenVPN - 6 Month - $28": {
+        "text": "🌐 OpenVPN for 10 devices\n📅 المدة: 6 Month\n💵 السعر: $28",
+        "flow": "proof"
+    },
+
+    "NordVPN - 6 Month - $12": {
+        "text": "🌐 NordVPN for 10 devices\n📅 المدة: 6 Month\n💵 السعر: $12",
+        "flow": "proof"
+    },
+    "NordVPN - 1 Year - $22": {
+        "text": "🌐 NordVPN for 10 devices\n📅 المدة: 1 Year\n💵 السعر: $22",
+        "flow": "proof"
+    },
+    "NordVPN - 2 Years - $42": {
+        "text": "🌐 NordVPN for 10 devices\n📅 المدة: 2 Years\n💵 السعر: $42",
+        "flow": "proof"
+    },
 
     "50 Stars - $1.5": {"text": "⭐ Telegram Stars\n📦 الكمية: 50 Stars\n💵 السعر: $1.5", "flow": "stars"},
     "100 Stars - $3": {"text": "⭐ Telegram Stars\n📦 الكمية: 100 Stars\n💵 السعر: $3", "flow": "stars"},
@@ -561,6 +626,12 @@ PRODUCT_TEXTS_EXTRA = {
     "Steam UAE - 234.60 AED - $84": "🎮 Steam الإمارات\n📦 القيمة: 234.60 AED\n💵 السعر: $84",
     "Steam UAE - 469.40 AED - $166": "🎮 Steam الإمارات\n📦 القيمة: 469.40 AED\n💵 السعر: $166",
     "Steam UAE - 938.90 AED - $326": "🎮 Steam الإمارات\n📦 القيمة: 938.90 AED\n💵 السعر: $326",
+
+    "Steam USA - $2 - $3.5": "🎮 Steam USA\n📦 القيمة: $2\n💵 السعر: $3.5",
+    "Steam USA - $5 - $6.5": "🎮 Steam USA\n📦 القيمة: $5\n💵 السعر: $6.5",
+    "Steam USA - $10 - $12": "🎮 Steam USA\n📦 القيمة: $10\n💵 السعر: $12",
+    "Steam USA - $20 - $24": "🎮 Steam USA\n📦 القيمة: $20\n💵 السعر: $24",
+    "Steam USA - $50 - $55": "🎮 Steam USA\n📦 القيمة: $50\n💵 السعر: $55",
 
     "Amazon KSA - 100 SAR - $35": "🛒 Amazon السعودية\n📦 القيمة: 100 SAR\n💵 السعر: $35",
     "Amazon KSA - 200 SAR - $70": "🛒 Amazon السعودية\n📦 القيمة: 200 SAR\n💵 السعر: $70",
