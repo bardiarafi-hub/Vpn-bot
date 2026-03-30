@@ -96,6 +96,7 @@ CATALOG = {
             "اشتراكات ChatGPT",
             "إنشاء حسابات ChatGPT",
             "VPN",
+            "PUBG UC",
             "Telegram Stars",
             "Apple iTunes",
             "PSN",
@@ -159,6 +160,50 @@ CATALOG = {
         ],
     },
 
+    "PUBG UC": {
+    "title": "🎮 PUBG Mobile\nاختر الخدمة:",
+    "buttons": [
+        "UC",
+        "Prime / Pass",
+        "⬅️ رجوع"
+    ],
+},
+
+"UC": {
+    "title": "🎮 PUBG UC\nاختر الكمية:",
+    "buttons": [
+        "60 UC - $2",
+        "120 UC - $4",
+        "180 UC - $5.2",
+        "325 UC - $8",
+        "660 UC - $15",
+        "720 UC - $17",
+        "960 UC - $20",
+        "1800 UC - $31",
+        "3850 UC - $60",
+        "8100 UC - $115",
+        "16200 UC - $222",
+        "40500 UC - $550",
+        "81000 UC - $1110",
+        "⬅️ رجوع"
+    ],
+},
+
+"Prime / Pass": {
+    "title": "🎮 PUBG Prime / Pass\nاختر الباقة:",
+    "buttons": [
+        "Prime 1 Month + 60 UC - $5",
+        "Prime 3 Month + 60 UC - $7.5",
+        "Prime 6 Month + 60 UC - $13",
+        "Prime 12 Month + 60 UC - $20",
+        "Prime Plus 1 Month + 60 UC - $16",
+        "Prime Plus 3 Month + 60 UC - $43",
+        "Prime Plus 6 Month + 60 UC - $77",
+        "Prime Plus 12 Month + 60 UC - $155",
+        "⬅️ رجوع"
+    ],
+},
+    
     "Telegram Stars": {
         "title": "⭐ Telegram Stars (توصيل تلقائي)\nاختر الكمية:",
         "buttons": [
@@ -354,6 +399,9 @@ PARENT = {
     "VPN": MAIN_MENU,
     "WireGuard": "VPN",
     "VLESS مع 10 مواقع IP": "VPN",
+    "PUGB UC": MAIN_MENU,
+    "UC": "PUBG UC",
+    "Prime / Pass": "PUBG UC",
     "Telegram Stars": MAIN_MENU,
     "Apple iTunes": MAIN_MENU,
     "Apple iTunes - USA": "Apple iTunes",
@@ -418,6 +466,29 @@ PRODUCTS = {
         "flow": "chatgpt"
     },
 
+    "60 UC - $2": {"text": "🎮 PUBG UC\n📦 60 UC\n💵 السعر: $2", "flow": "pubg"},
+    "120 UC - $4": {"text": "🎮 PUBG UC\n📦 120 UC\n💵 السعر: $4", "flow": "pubg"},
+    "180 UC - $5.2": {"text": "🎮 PUBG UC\n📦 180 UC\n💵 السعر: $5.2", "flow": "pubg"},
+    "325 UC - $8": {"text": "🎮 PUBG UC\n📦 325 UC\n💵 السعر: $8", "flow": "pubg"},
+    "660 UC - $15": {"text": "🎮 PUBG UC\n📦 660 UC\n💵 السعر: $15", "flow": "pubg"},
+    "720 UC - $17": {"text": "🎮 PUBG UC\n📦 720 UC\n💵 السعر: $17", "flow": "pubg"},
+    "960 UC - $20": {"text": "🎮 PUBG UC\n📦 960 UC\n💵 السعر: $20", "flow": "pubg"},
+    "1800 UC - $31": {"text": "🎮 PUBG UC\n📦 1800 UC\n💵 السعر: $31", "flow": "pubg"},
+    "3850 UC - $60": {"text": "🎮 PUBG UC\n📦 3850 UC\n💵 السعر: $60", "flow": "pubg"},
+    "8100 UC - $115": {"text": "🎮 PUBG UC\n📦 8100 UC\n💵 السعر: $115", "flow": "pubg"},
+    "16200 UC - $222": {"text": "🎮 PUBG UC\n📦 16200 UC\n💵 السعر: $222", "flow": "pubg"},
+    "40500 UC - $550": {"text": "🎮 PUBG UC\n📦 40500 UC\n💵 السعر: $550", "flow": "pubg"},
+    "81000 UC - $1110": {"text": "🎮 PUBG UC\n📦 81000 UC\n💵 السعر: $1110", "flow": "pubg"},
+
+    "Prime 1 Month + 60 UC - $5": {"text": "🎮 PUBG Prime\n📅 1 شهر\n🎁 +60 UC\n💵 $5", "flow": "pubg"},
+    "Prime 3 Month + 60 UC - $7.5": {"text": "🎮 PUBG Prime\n📅 3 شهر\n🎁 +60 UC\n💵 $7.5", "flow": "pubg"},
+    "Prime 6 Month + 60 UC - $13": {"text": "🎮 PUBG Prime\n📅 6 شهر\n🎁 +60 UC\n💵 $13", "flow": "pubg"},
+    "Prime 12 Month + 60 UC - $20": {"text": "🎮 PUBG Prime\n📅 12 شهر\n🎁 +60 UC\n💵 $20", "flow": "pubg"},
+    "Prime Plus 1 Month + 60 UC - $16": {"text": "🎮 PUBG Prime Plus\n📅 1 شهر\n🎁 +60 UC\n💵 $16", "flow": "pubg"},
+    "Prime Plus 3 Month + 60 UC - $43": {"text": "🎮 PUBG Prime Plus\n📅 3 شهر\n🎁 +60 UC\n💵 $43", "flow": "pubg"},
+    "Prime Plus 6 Month + 60 UC - $77": {"text": "🎮 PUBG Prime Plus\n📅 6 شهر\n🎁 +60 UC\n💵 $77", "flow": "pubg"},
+    "Prime Plus 12 Month + 60 UC - $155": {"text": "🎮 PUBG Prime Plus\n📅 12 شهر\n🎁 +60 UC\n💵 $155", "flow": "pubg"},
+    
     "WireGuard - 1 شهر - $5": {"text": "🌐 WireGuard\n📅 المدة: 1 شهر\n💵 السعر: $5", "flow": "proof"},
     "WireGuard - 3 أشهر - $9": {"text": "🌐 WireGuard\n📅 المدة: 3 أشهر\n💵 السعر: $9", "flow": "proof"},
     "WireGuard - 6 أشهر - $16": {"text": "🌐 WireGuard\n📅 المدة: 6 أشهر\n💵 السعر: $16", "flow": "proof"},
@@ -433,6 +504,7 @@ PRODUCTS = {
     "3000 Stars - $60": {"text": "⭐ Telegram Stars\n📦 الكمية: 3000 Stars\n💵 السعر: $60", "flow": "stars"},
     "5000 Stars - $90": {"text": "⭐ Telegram Stars\n📦 الكمية: 5000 Stars\n💵 السعر: $90", "flow": "stars"},
 }
+    
 
 PRODUCT_TEXTS_EXTRA = {
     "Apple USA - $2 - $3": "🍎 Apple iTunes USA\n📦 القيمة: $2\n💵 السعر: $3",
@@ -587,6 +659,20 @@ def show_wallet_and_next_step(chat_id: int, currency: str):
         text = f"""{base_text}
 بعد إتمام الدفع، يرجى إرسال رسالة إلى الدعم مع صورة الدفع أو TXID:
 
+elif flow == "pubg":
+    st["awaiting"] = "pubg_id"
+    text = f"""{base_text}
+
+🎮 بعد الدفع، أرسل ID الخاص بك في PUBG هنا داخل البوت.
+
+📌 كيفية معرفة ID الخاص بك:
+• افتح لعبة PUBG Mobile  
+• اضغط على صورتك الشخصية (أعلى يسار الشاشة)  
+• انسخ الـ ID — وهو الأرقام الموجودة تحت اسمك  
+
+⚡ سيتم تنفيذ الطلب خلال 5 إلى 10 دقائق"""
+    
+    send_message(chat_id, text, ["⬅️ رجوع إلى المنتجات"])
 👉 {SUPPORT_USERNAME}
 
 🟢 نحن متاحون للرد 24/7
@@ -677,6 +763,31 @@ def handle_proof_text(message: dict):
         return True
 
     return False
+
+if st.get("awaiting") == "pubg_id":
+    admin_notify(
+        f"""📥 طلب PUBG جديد
+
+👤 الاسم: {first_name}
+🆔 user_id: {chat_id}
+🔗 username: @{username if username else 'none'}
+
+📦 المنتج:
+{selected_product}
+
+💳 العملة:
+{selected_currency}
+
+🎮 PUBG ID:
+{text}"""
+    )
+    st["awaiting"] = None
+    send_message(
+        chat_id,
+        "✅ تم استلام ID بنجاح. سيتم تنفيذ الطلب خلال 5 إلى 10 دقائق.",
+        ["⬅️ رجوع إلى القائمة الرئيسية", "الدعم"]
+    )
+    return True
 
 
 def handle_proof_photo(message: dict):
