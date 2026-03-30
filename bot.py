@@ -640,7 +640,7 @@ def show_wallet_and_next_step(chat_id: int, currency: str):
     st = get_user(chat_id)
     product_key = st.get("selected_product")
     if not product_key:
-        send_message(chat_id, "اختر المنتج أولاً.", CATALOG[MAIN_MENU]["buttons"])
+        send_message(chat_id, "❗ اختر المنتج أولاً.", CATALOG[MAIN_MENU]["buttons"])
         return
 
     st["selected_currency"] = currency
@@ -678,17 +678,10 @@ def show_wallet_and_next_step(chat_id: int, currency: str):
         send_message(chat_id, text, ["⬅️ رجوع إلى المنتجات"])
 
     elif flow == "pubg":
-        st["awaiting"] = "pubg_id"
+        st["awaiting"] = None
         text = f"""{base_text}
-🎮 بعد الدفع، أرسل ID الخاص بك في PUBG هنا داخل البوت.
-
-📌 كيفية معرفة ID الخاص بك:
-• افتح لعبة PUBG Mobile
-• اضغط على صورتك الشخصية في أعلى يسار الشاشة
-• انسخ الـ ID وهو الأرقام الموجودة تحت اسمك
-
-⚡ سيتم تنفيذ الطلب خلال 5 إلى 10 دقائق"""
-        send_message(chat_id, text, ["⬅️ رجوع إلى المنتجات"])
+📤 بعد الدفع، اختر إحدى الطرق التالية لإرسال إثبات الدفع أولاً:"""
+        send_message(chat_id, text, ["📄 إرسال TXID", "📸 إرسال صورة الدفع", "⬅️ رجوع إلى المنتجات"])
 
     else:
         text = f"""{base_text}
@@ -731,6 +724,38 @@ def handle_proof_text(message: dict):
         send_message(
             chat_id,
             "✅ تم استلام TXID بنجاح.\nسيتم مراجعة الدفع وإرسال الطلب لك في أقرب وقت ممكن.",
+            ["⬅️ رجوع إلى القائمة الرئيسية", "📩 الدعم"]
+        )
+        return True
+
+    if st.get("awaiting") == "pubg_txid":
+        admin_notify(
+            f"""🎮 إثبات دفع PUBG جديد (TXID)
+
+👤 الاسم: {first_name}
+🆔 user_id: {chat_id}
+🔗 username: @{username if username else 'none'}
+
+📦 المنتج:
+{selected_product}
+
+💳 العملة:
+{selected_currency}
+
+🧾 TXID:
+{text}"""
+        )
+        st["awaiting"] = "pubg_id"
+        send_message(
+            chat_id,
+            """✅ تم استلام TXID بنجاح.
+
+🎮 الآن أرسل ID الخاص بك في PUBG هنا داخل البوت.
+
+📌 كيفية معرفة ID الخاص بك:
+• افتح لعبة PUBG Mobile
+• اضغط على صورتك الشخصية في أعلى يسار الشاشة
+• انسخ الـ ID وهو الأرقام الموجودة تحت اسمك""",
             ["⬅️ رجوع إلى القائمة الرئيسية", "📩 الدعم"]
         )
         return True
@@ -792,7 +817,7 @@ def handle_proof_photo(message: dict):
     chat_id = message["chat"]["id"]
     st = get_user(chat_id)
 
-    if st.get("awaiting") != "photo":
+    if st.get("awaiting") not in ["photo", "pubg_photo"]:
         return False
 
     photos = message.get("photo", [])
@@ -806,6 +831,36 @@ def handle_proof_photo(message: dict):
     first_name = message.get("from", {}).get("first_name", "")
     selected_product = st.get("selected_product", "")
     selected_currency = st.get("selected_currency", "")
+
+    if PRODUCTS.get(selected_product, {}).get("flow") == "pubg":
+        caption = f"""🎮 صورة إثبات دفع PUBG جديدة
+
+👤 الاسم: {first_name}
+🆔 user_id: {chat_id}
+🔗 username: @{username if username else 'none'}
+
+📦 المنتج:
+{selected_product}
+
+💳 العملة:
+{selected_currency}"""
+
+        admin_notify_photo(file_id, caption)
+
+        st["awaiting"] = "pubg_id"
+        send_message(
+            chat_id,
+            """✅ تم استلام صورة الدفع بنجاح.
+
+🎮 الآن أرسل ID الخاص بك في PUBG هنا داخل البوت.
+
+📌 كيفية معرفة ID الخاص بك:
+• افتح لعبة PUBG Mobile
+• اضغط على صورتك الشخصية في أعلى يسار الشاشة
+• انسخ الـ ID وهو الأرقام الموجودة تحت اسمك""",
+            ["⬅️ رجوع إلى القائمة الرئيسية", "📩 الدعم"]
+        )
+        return True
 
     caption = f"""📸 صورة إثبات دفع جديدة
 
@@ -904,12 +959,20 @@ def handle_message(message: dict):
         return
 
     if text == "📄 إرسال TXID":
-        st["awaiting"] = "txid"
+        selected_product = st.get("selected_product", "")
+        if PRODUCTS.get(selected_product, {}).get("flow") == "pubg":
+            st["awaiting"] = "pubg_txid"
+        else:
+            st["awaiting"] = "txid"
         send_message(chat_id, "🧾 أرسل TXID هنا الآن.", ["⬅️ رجوع إلى المنتجات"])
         return
 
     if text == "📸 إرسال صورة الدفع":
-        st["awaiting"] = "photo"
+        selected_product = st.get("selected_product", "")
+        if PRODUCTS.get(selected_product, {}).get("flow") == "pubg":
+            st["awaiting"] = "pubg_photo"
+        else:
+            st["awaiting"] = "photo"
         send_message(chat_id, "📸 أرسل صورة الدفع هنا الآن.", ["⬅️ رجوع إلى المنتجات"])
         return
 
