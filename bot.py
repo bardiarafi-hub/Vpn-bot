@@ -93,24 +93,24 @@ def get_user(chat_id: int):
 
 CATALOG = {
     MAIN_MENU: {
-        "title": "مرحباً بك في NetArabia\nاختر القسم الذي تريده:",
+        "title": "👋 مرحباً بك في NetArabia\nاختر القسم الذي تريده:",
         "buttons": [
-            "اشتراكات ChatGPT",
-            "إنشاء حسابات ChatGPT",
-            "VPN",
-            "Telegram Stars",
-            "PUBG Mobile",
-            "Apple iTunes",
-            "PSN",
-            "Steam",
-            "Amazon",
-            "Roblox",
-            "الدعم"
+            "🤖 اشتراكات ChatGPT",
+            "🆕 إنشاء حسابات ChatGPT",
+            "🌐 VPN",
+            "⭐ Telegram Stars",
+            "🎮 PUBG Mobile",
+            "🍎 Apple iTunes",
+            "🎮 PSN",
+            "🎮 Steam",
+            "🛒 Amazon",
+            "🎮 Roblox",
+            "📩 الدعم"
         ],
     },
 
-    "اشتراكات ChatGPT": {
-        "title": "تجديد اشتراكات ChatGPT 5.4\nاختر المنتج:",
+    "🤖 اشتراكات ChatGPT": {
+        "title": "🤖 تجديد اشتراكات ChatGPT 5.4\nاختر المنتج:",
         "buttons": [
             "ChatGPT Plus - 1 شهر - بدون تسجيل دخول - $12.5",
             "ChatGPT Plus - 12 شهر - بدون تسجيل دخول - $113",
@@ -121,8 +121,8 @@ CATALOG = {
         ],
     },
 
-    "إنشاء حسابات ChatGPT": {
-        "title": "إنشاء حساب ChatGPT 5.4 + اشتراك\nاختر المنتج:",
+    "🆕 إنشاء حسابات ChatGPT": {
+        "title": "🆕 إنشاء حساب ChatGPT 5.4 + اشتراك\nاختر المنتج:",
         "buttons": [
             "حساب جاهز ChatGPT Plus - 1 شهر - $10.5",
             "ChatGPT Plus على بريدك - 1 شهر - $17",
@@ -134,8 +134,8 @@ CATALOG = {
         ],
     },
 
-    "VPN": {
-        "title": "خدمات VPN\nاختر النوع:",
+    "🌐 VPN": {
+        "title": "🌐 خدمات VPN\nاختر النوع:",
         "buttons": [
             "WireGuard",
             "VLESS مع 10 مواقع IP",
@@ -144,7 +144,7 @@ CATALOG = {
     },
 
     "WireGuard": {
-        "title": "WireGuard\nاختر الخطة:",
+        "title": "🌐 WireGuard\nاختر الخطة:",
         "buttons": [
             "WireGuard - 1 شهر - $5",
             "WireGuard - 3 أشهر - $9",
@@ -154,7 +154,7 @@ CATALOG = {
     },
 
     "VLESS مع 10 مواقع IP": {
-        "title": "VLESS مع 10 مواقع IP\nاختر الخطة:",
+        "title": "🌐 VLESS مع 10 مواقع IP\nاختر الخطة:",
         "buttons": [
             "VLESS - 1 شهر - $6",
             "VLESS - 3 أشهر - $15",
@@ -162,8 +162,8 @@ CATALOG = {
         ],
     },
 
-    "Telegram Stars": {
-        "title": "Telegram Stars\nاختر الكمية:",
+    "⭐ Telegram Stars": {
+        "title": "⭐ Telegram Stars\nاختر الكمية:",
         "buttons": [
             "50 Stars - $1.5",
             "100 Stars - $3",
@@ -177,17 +177,17 @@ CATALOG = {
         ],
     },
 
-    "PUBG Mobile": {
-        "title": "PUBG Mobile\nاختر الخدمة:",
+    "🎮 PUBG Mobile": {
+        "title": "🎮 PUBG Mobile\nاختر الخدمة:",
         "buttons": [
-            "PUBG UC",
-            "PUBG Prime / Pass",
+            "🎮 PUBG UC",
+            "👑 PUBG Prime / Pass",
             "⬅️ رجوع"
         ],
     },
 
-    "PUBG UC": {
-        "title": "PUBG UC\nاختر الكمية:",
+    "🎮 PUBG UC": {
+        "title": "🎮 PUBG UC\nاختر الكمية:",
         "buttons": [
             "60 UC - $2",
             "120 UC - $4",
@@ -206,8 +206,8 @@ CATALOG = {
         ],
     },
 
-    "PUBG Prime / Pass": {
-        "title": "PUBG Prime / Pass\nاختر الباقة:",
+    "👑 PUBG Prime / Pass": {
+        "title": "👑 PUBG Prime / Pass\nاختر الباقة:",
         "buttons": [
             "Prime 1 Month + 60 UC - $5",
             "Prime 3 Month + 60 UC - $7.5",
@@ -221,8 +221,8 @@ CATALOG = {
         ],
     },
 
-    "Apple iTunes": {
-        "title": "Apple iTunes Gift Card\nاختر المنطقة:",
+    "🍎 Apple iTunes": {
+        "title": "🍎 Apple iTunes Gift Card\nاختر المنطقة:",
         "buttons": [
             "Apple iTunes - USA",
             "Apple iTunes - Saudi Arabia",
@@ -232,7 +232,7 @@ CATALOG = {
     },
 
     "Apple iTunes - USA": {
-        "title": "Apple iTunes - الولايات المتحدة\nاختر البطاقة:",
+        "title": "🍎 Apple iTunes - الولايات المتحدة\nاختر البطاقة:",
         "buttons": [
             "Apple USA - $2 - $3",
             "Apple USA - $3 - $4",
@@ -250,7 +250,7 @@ CATALOG = {
     },
 
     "Apple iTunes - Saudi Arabia": {
-        "title": "Apple iTunes - السعودية\nاختر البطاقة:",
+        "title": "🍎 Apple iTunes - السعودية\nاختر البطاقة:",
         "buttons": [
             "Apple KSA - 50 SAR - $16",
             "Apple KSA - 100 SAR - $32",
@@ -262,7 +262,7 @@ CATALOG = {
     },
 
     "Apple iTunes - UAE": {
-        "title": "Apple iTunes - الإمارات\nاختر البطاقة:",
+        "title": "🍎 Apple iTunes - الإمارات\nاختر البطاقة:",
         "buttons": [
             "Apple UAE - 50 AED - $17.60",
             "Apple UAE - 100 AED - $35",
@@ -273,8 +273,8 @@ CATALOG = {
         ],
     },
 
-    "PSN": {
-        "title": "PlayStation Gift Card\nاختر المنطقة:",
+    "🎮 PSN": {
+        "title": "🎮 PlayStation Gift Card\nاختر المنطقة:",
         "buttons": [
             "PSN - UAE",
             "PSN - USA",
@@ -283,7 +283,7 @@ CATALOG = {
     },
 
     "PSN - UAE": {
-        "title": "PSN - الإمارات\nاختر البطاقة:",
+        "title": "🎮 PSN - الإمارات\nاختر البطاقة:",
         "buttons": [
             "PSN UAE - $10 - $13",
             "PSN UAE - $20 - $25",
@@ -296,7 +296,7 @@ CATALOG = {
     },
 
     "PSN - USA": {
-        "title": "PSN - أمريكا\nاختر البطاقة:",
+        "title": "🎮 PSN - أمريكا\nاختر البطاقة:",
         "buttons": [
             "PSN USA - $10 - $15",
             "PSN USA - $20 - $30",
@@ -306,8 +306,8 @@ CATALOG = {
         ],
     },
 
-    "Steam": {
-        "title": "Steam Gift Card\nاختر المنطقة:",
+    "🎮 Steam": {
+        "title": "🎮 Steam Gift Card\nاختر المنطقة:",
         "buttons": [
             "Steam - Saudi Arabia",
             "Steam - UAE",
@@ -316,7 +316,7 @@ CATALOG = {
     },
 
     "Steam - Saudi Arabia": {
-        "title": "Steam - السعودية\nاختر البطاقة:",
+        "title": "🎮 Steam - السعودية\nاختر البطاقة:",
         "buttons": [
             "Steam KSA - 5 SAR - $3.5",
             "Steam KSA - 10 SAR - $6.5",
@@ -329,7 +329,7 @@ CATALOG = {
     },
 
     "Steam - UAE": {
-        "title": "Steam - الإمارات\nاختر البطاقة:",
+        "title": "🎮 Steam - الإمارات\nاختر البطاقة:",
         "buttons": [
             "Steam UAE - 1.40 AED - $1",
             "Steam UAE - 2.80 AED - $1.8",
@@ -345,8 +345,8 @@ CATALOG = {
         ],
     },
 
-    "Amazon": {
-        "title": "Amazon Gift Card\nاختر المنطقة:",
+    "🛒 Amazon": {
+        "title": "🛒 Amazon Gift Card\nاختر المنطقة:",
         "buttons": [
             "Amazon - Saudi Arabia",
             "Amazon - UAE",
@@ -355,7 +355,7 @@ CATALOG = {
     },
 
     "Amazon - Saudi Arabia": {
-        "title": "Amazon - السعودية\nاختر البطاقة:",
+        "title": "🛒 Amazon - السعودية\nاختر البطاقة:",
         "buttons": [
             "Amazon KSA - 100 SAR - $35",
             "Amazon KSA - 200 SAR - $70",
@@ -370,7 +370,7 @@ CATALOG = {
     },
 
     "Amazon - UAE": {
-        "title": "Amazon - الإمارات\nاختر البطاقة:",
+        "title": "🛒 Amazon - الإمارات\nاختر البطاقة:",
         "buttons": [
             "Amazon UAE - 100 AED - $32",
             "Amazon UAE - 150 AED - $46.70",
@@ -382,8 +382,8 @@ CATALOG = {
         ],
     },
 
-    "Roblox": {
-        "title": "Roblox Gift Card - الإمارات\nاختر البطاقة:",
+    "🎮 Roblox": {
+        "title": "🎮 Roblox Gift Card - الإمارات\nاختر البطاقة:",
         "buttons": [
             "Roblox UAE - 20 AED - $7.5",
             "Roblox UAE - 50 AED - $16",
@@ -396,193 +396,193 @@ CATALOG = {
 }
 
 PARENT = {
-    "اشتراكات ChatGPT": MAIN_MENU,
-    "إنشاء حسابات ChatGPT": MAIN_MENU,
-    "VPN": MAIN_MENU,
-    "WireGuard": "VPN",
-    "VLESS مع 10 مواقع IP": "VPN",
-    "Telegram Stars": MAIN_MENU,
-    "PUBG Mobile": MAIN_MENU,
-    "PUBG UC": "PUBG Mobile",
-    "PUBG Prime / Pass": "PUBG Mobile",
-    "Apple iTunes": MAIN_MENU,
-    "Apple iTunes - USA": "Apple iTunes",
-    "Apple iTunes - Saudi Arabia": "Apple iTunes",
-    "Apple iTunes - UAE": "Apple iTunes",
-    "PSN": MAIN_MENU,
-    "PSN - UAE": "PSN",
-    "PSN - USA": "PSN",
-    "Steam": MAIN_MENU,
-    "Steam - Saudi Arabia": "Steam",
-    "Steam - UAE": "Steam",
-    "Amazon": MAIN_MENU,
-    "Amazon - Saudi Arabia": "Amazon",
-    "Amazon - UAE": "Amazon",
-    "Roblox": MAIN_MENU,
+    "🤖 اشتراكات ChatGPT": MAIN_MENU,
+    "🆕 إنشاء حسابات ChatGPT": MAIN_MENU,
+    "🌐 VPN": MAIN_MENU,
+    "WireGuard": "🌐 VPN",
+    "VLESS مع 10 مواقع IP": "🌐 VPN",
+    "⭐ Telegram Stars": MAIN_MENU,
+    "🎮 PUBG Mobile": MAIN_MENU,
+    "🎮 PUBG UC": "🎮 PUBG Mobile",
+    "👑 PUBG Prime / Pass": "🎮 PUBG Mobile",
+    "🍎 Apple iTunes": MAIN_MENU,
+    "Apple iTunes - USA": "🍎 Apple iTunes",
+    "Apple iTunes - Saudi Arabia": "🍎 Apple iTunes",
+    "Apple iTunes - UAE": "🍎 Apple iTunes",
+    "🎮 PSN": MAIN_MENU,
+    "PSN - UAE": "🎮 PSN",
+    "PSN - USA": "🎮 PSN",
+    "🎮 Steam": MAIN_MENU,
+    "Steam - Saudi Arabia": "🎮 Steam",
+    "Steam - UAE": "🎮 Steam",
+    "🛒 Amazon": MAIN_MENU,
+    "Amazon - Saudi Arabia": "🛒 Amazon",
+    "Amazon - UAE": "🛒 Amazon",
+    "🎮 Roblox": MAIN_MENU,
 }
 
 PRODUCTS = {
     "ChatGPT Plus - 1 شهر - بدون تسجيل دخول - $12.5": {
-        "text": "تجديد اشتراك ChatGPT 5.4\nالخطة: Plus\nالمدة: 1 شهر\nبدون تسجيل دخول\nالسعر: $12.5",
+        "text": "🤖 تجديد اشتراك ChatGPT 5.4\n📦 الخطة: Plus\n📅 المدة: 1 شهر\n🔐 بدون تسجيل دخول\n💵 السعر: $12.5",
         "flow": "chatgpt"
     },
     "ChatGPT Plus - 12 شهر - بدون تسجيل دخول - $113": {
-        "text": "تجديد اشتراك ChatGPT 5.4\nالخطة: Plus\nالمدة: 12 شهر\nبدون تسجيل دخول\nالسعر: $113",
+        "text": "🤖 تجديد اشتراك ChatGPT 5.4\n📦 الخطة: Plus\n📅 المدة: 12 شهر\n🔐 بدون تسجيل دخول\n💵 السعر: $113",
         "flow": "chatgpt"
     },
     "ChatGPT Pro - 1 شهر - بدون تسجيل دخول - $158": {
-        "text": "تجديد اشتراك ChatGPT 5.4\nالخطة: Pro\nالمدة: 1 شهر\nبدون تسجيل دخول\nالسعر: $158",
+        "text": "🤖 تجديد اشتراك ChatGPT 5.4\n📦 الخطة: Pro\n📅 المدة: 1 شهر\n🔐 بدون تسجيل دخول\n💵 السعر: $158",
         "flow": "chatgpt"
     },
     "ChatGPT Plus - 1 شهر - مع تسجيل دخول - $8.5": {
-        "text": "تجديد اشتراك ChatGPT 5.4\nالخطة: Plus\nالمدة: 1 شهر\nمع تسجيل دخول\nالسعر: $8.5",
+        "text": "🤖 تجديد اشتراك ChatGPT 5.4\n📦 الخطة: Plus\n📅 المدة: 1 شهر\n📧 مع تسجيل دخول\n💵 السعر: $8.5",
         "flow": "chatgpt"
     },
     "ChatGPT Plus - 12 شهر - مع تسجيل دخول - $99": {
-        "text": "تجديد اشتراك ChatGPT 5.4\nالخطة: Plus\nالمدة: 12 شهر\nمع تسجيل دخول\nالسعر: $99",
+        "text": "🤖 تجديد اشتراك ChatGPT 5.4\n📦 الخطة: Plus\n📅 المدة: 12 شهر\n📧 مع تسجيل دخول\n💵 السعر: $99",
         "flow": "chatgpt"
     },
 
     "حساب جاهز ChatGPT Plus - 1 شهر - $10.5": {
-        "text": "إنشاء حساب ChatGPT 5.4\nالخطة: Plus\nالمدة: 1 شهر\nحساب جاهز\nالسعر: $10.5",
+        "text": "🆕 إنشاء حساب ChatGPT 5.4\n📦 الخطة: Plus\n📅 المدة: 1 شهر\n✅ حساب جاهز\n💵 السعر: $10.5",
         "flow": "chatgpt"
     },
     "ChatGPT Plus على بريدك - 1 شهر - $17": {
-        "text": "إنشاء حساب ChatGPT 5.4\nالخطة: Plus\nالمدة: 1 شهر\nعلى بريدك الإلكتروني\nالسعر: $17",
+        "text": "🆕 إنشاء حساب ChatGPT 5.4\n📦 الخطة: Plus\n📅 المدة: 1 شهر\n📧 على بريدك الإلكتروني\n💵 السعر: $17",
         "flow": "chatgpt"
     },
     "حساب جاهز ChatGPT Plus - 12 شهر - $98": {
-        "text": "إنشاء حساب ChatGPT 5.4\nالخطة: Plus\nالمدة: 12 شهر\nحساب جاهز\nالسعر: $98",
+        "text": "🆕 إنشاء حساب ChatGPT 5.4\n📦 الخطة: Plus\n📅 المدة: 12 شهر\n✅ حساب جاهز\n💵 السعر: $98",
         "flow": "chatgpt"
     },
     "ChatGPT Plus على بريدك - 12 شهر - $118": {
-        "text": "إنشاء حساب ChatGPT 5.4\nالخطة: Plus\nالمدة: 12 شهر\nعلى بريدك الإلكتروني\nالسعر: $118",
+        "text": "🆕 إنشاء حساب ChatGPT 5.4\n📦 الخطة: Plus\n📅 المدة: 12 شهر\n📧 على بريدك الإلكتروني\n💵 السعر: $118",
         "flow": "chatgpt"
     },
     "حساب جاهز ChatGPT Pro - 12 شهر - $442": {
-        "text": "إنشاء حساب ChatGPT 5.4\nالخطة: Pro\nالمدة: 12 شهر\nحساب جاهز\nالسعر: $442",
+        "text": "🆕 إنشاء حساب ChatGPT 5.4\n📦 الخطة: Pro\n📅 المدة: 12 شهر\n✅ حساب جاهز\n💵 السعر: $442",
         "flow": "chatgpt"
     },
     "ChatGPT Pro على بريدك - 12 شهر - $476": {
-        "text": "إنشاء حساب ChatGPT 5.4\nالخطة: Pro\nالمدة: 12 شهر\nعلى بريدك الإلكتروني\nالسعر: $476",
+        "text": "🆕 إنشاء حساب ChatGPT 5.4\n📦 الخطة: Pro\n📅 المدة: 12 شهر\n📧 على بريدك الإلكتروني\n💵 السعر: $476",
         "flow": "chatgpt"
     },
 
-    "WireGuard - 1 شهر - $5": {"text": "WireGuard\nالمدة: 1 شهر\nالسعر: $5", "flow": "proof"},
-    "WireGuard - 3 أشهر - $9": {"text": "WireGuard\nالمدة: 3 أشهر\nالسعر: $9", "flow": "proof"},
-    "WireGuard - 6 أشهر - $16": {"text": "WireGuard\nالمدة: 6 أشهر\nالسعر: $16", "flow": "proof"},
-    "VLESS - 1 شهر - $6": {"text": "VLESS مع 10 مواقع IP\nالمدة: 1 شهر\nالسعر: $6", "flow": "proof"},
-    "VLESS - 3 أشهر - $15": {"text": "VLESS مع 10 مواقع IP\nالمدة: 3 أشهر\nالسعر: $15", "flow": "proof"},
+    "WireGuard - 1 شهر - $5": {"text": "🌐 WireGuard\n📅 المدة: 1 شهر\n💵 السعر: $5", "flow": "proof"},
+    "WireGuard - 3 أشهر - $9": {"text": "🌐 WireGuard\n📅 المدة: 3 أشهر\n💵 السعر: $9", "flow": "proof"},
+    "WireGuard - 6 أشهر - $16": {"text": "🌐 WireGuard\n📅 المدة: 6 أشهر\n💵 السعر: $16", "flow": "proof"},
+    "VLESS - 1 شهر - $6": {"text": "🌐 VLESS مع 10 مواقع IP\n📅 المدة: 1 شهر\n💵 السعر: $6", "flow": "proof"},
+    "VLESS - 3 أشهر - $15": {"text": "🌐 VLESS مع 10 مواقع IP\n📅 المدة: 3 أشهر\n💵 السعر: $15", "flow": "proof"},
 
-    "50 Stars - $1.5": {"text": "Telegram Stars\nالكمية: 50 Stars\nالسعر: $1.5", "flow": "stars"},
-    "100 Stars - $3": {"text": "Telegram Stars\nالكمية: 100 Stars\nالسعر: $3", "flow": "stars"},
-    "250 Stars - $6": {"text": "Telegram Stars\nالكمية: 250 Stars\nالسعر: $6", "flow": "stars"},
-    "500 Stars - $11.5": {"text": "Telegram Stars\nالكمية: 500 Stars\nالسعر: $11.5", "flow": "stars"},
-    "1000 Stars - $22": {"text": "Telegram Stars\nالكمية: 1000 Stars\nالسعر: $22", "flow": "stars"},
-    "2000 Stars - $40": {"text": "Telegram Stars\nالكمية: 2000 Stars\nالسعر: $40", "flow": "stars"},
-    "3000 Stars - $60": {"text": "Telegram Stars\nالكمية: 3000 Stars\nالسعر: $60", "flow": "stars"},
-    "5000 Stars - $90": {"text": "Telegram Stars\nالكمية: 5000 Stars\nالسعر: $90", "flow": "stars"},
+    "50 Stars - $1.5": {"text": "⭐ Telegram Stars\n📦 الكمية: 50 Stars\n💵 السعر: $1.5", "flow": "stars"},
+    "100 Stars - $3": {"text": "⭐ Telegram Stars\n📦 الكمية: 100 Stars\n💵 السعر: $3", "flow": "stars"},
+    "250 Stars - $6": {"text": "⭐ Telegram Stars\n📦 الكمية: 250 Stars\n💵 السعر: $6", "flow": "stars"},
+    "500 Stars - $11.5": {"text": "⭐ Telegram Stars\n📦 الكمية: 500 Stars\n💵 السعر: $11.5", "flow": "stars"},
+    "1000 Stars - $22": {"text": "⭐ Telegram Stars\n📦 الكمية: 1000 Stars\n💵 السعر: $22", "flow": "stars"},
+    "2000 Stars - $40": {"text": "⭐ Telegram Stars\n📦 الكمية: 2000 Stars\n💵 السعر: $40", "flow": "stars"},
+    "3000 Stars - $60": {"text": "⭐ Telegram Stars\n📦 الكمية: 3000 Stars\n💵 السعر: $60", "flow": "stars"},
+    "5000 Stars - $90": {"text": "⭐ Telegram Stars\n📦 الكمية: 5000 Stars\n💵 السعر: $90", "flow": "stars"},
 
-    "60 UC - $2": {"text": "PUBG UC\nالكمية: 60 UC\nالسعر: $2", "flow": "pubg"},
-    "120 UC - $4": {"text": "PUBG UC\nالكمية: 120 UC\nالسعر: $4", "flow": "pubg"},
-    "180 UC - $5.2": {"text": "PUBG UC\nالكمية: 180 UC\nالسعر: $5.2", "flow": "pubg"},
-    "325 UC - $8": {"text": "PUBG UC\nالكمية: 325 UC\nالسعر: $8", "flow": "pubg"},
-    "660 UC - $15": {"text": "PUBG UC\nالكمية: 660 UC\nالسعر: $15", "flow": "pubg"},
-    "720 UC - $17": {"text": "PUBG UC\nالكمية: 720 UC\nالسعر: $17", "flow": "pubg"},
-    "960 UC - $20": {"text": "PUBG UC\nالكمية: 960 UC\nالسعر: $20", "flow": "pubg"},
-    "1800 UC - $31": {"text": "PUBG UC\nالكمية: 1800 UC\nالسعر: $31", "flow": "pubg"},
-    "3850 UC - $60": {"text": "PUBG UC\nالكمية: 3850 UC\nالسعر: $60", "flow": "pubg"},
-    "8100 UC - $115": {"text": "PUBG UC\nالكمية: 8100 UC\nالسعر: $115", "flow": "pubg"},
-    "16200 UC - $222": {"text": "PUBG UC\nالكمية: 16200 UC\nالسعر: $222", "flow": "pubg"},
-    "40500 UC - $550": {"text": "PUBG UC\nالكمية: 40500 UC\nالسعر: $550", "flow": "pubg"},
-    "81000 UC - $1110": {"text": "PUBG UC\nالكمية: 81000 UC\nالسعر: $1110", "flow": "pubg"},
+    "60 UC - $2": {"text": "🎮 PUBG UC\n📦 الكمية: 60 UC\n💵 السعر: $2", "flow": "pubg"},
+    "120 UC - $4": {"text": "🎮 PUBG UC\n📦 الكمية: 120 UC\n💵 السعر: $4", "flow": "pubg"},
+    "180 UC - $5.2": {"text": "🎮 PUBG UC\n📦 الكمية: 180 UC\n💵 السعر: $5.2", "flow": "pubg"},
+    "325 UC - $8": {"text": "🎮 PUBG UC\n📦 الكمية: 325 UC\n💵 السعر: $8", "flow": "pubg"},
+    "660 UC - $15": {"text": "🎮 PUBG UC\n📦 الكمية: 660 UC\n💵 السعر: $15", "flow": "pubg"},
+    "720 UC - $17": {"text": "🎮 PUBG UC\n📦 الكمية: 720 UC\n💵 السعر: $17", "flow": "pubg"},
+    "960 UC - $20": {"text": "🎮 PUBG UC\n📦 الكمية: 960 UC\n💵 السعر: $20", "flow": "pubg"},
+    "1800 UC - $31": {"text": "🎮 PUBG UC\n📦 الكمية: 1800 UC\n💵 السعر: $31", "flow": "pubg"},
+    "3850 UC - $60": {"text": "🎮 PUBG UC\n📦 الكمية: 3850 UC\n💵 السعر: $60", "flow": "pubg"},
+    "8100 UC - $115": {"text": "🎮 PUBG UC\n📦 الكمية: 8100 UC\n💵 السعر: $115", "flow": "pubg"},
+    "16200 UC - $222": {"text": "🎮 PUBG UC\n📦 الكمية: 16200 UC\n💵 السعر: $222", "flow": "pubg"},
+    "40500 UC - $550": {"text": "🎮 PUBG UC\n📦 الكمية: 40500 UC\n💵 السعر: $550", "flow": "pubg"},
+    "81000 UC - $1110": {"text": "🎮 PUBG UC\n📦 الكمية: 81000 UC\n💵 السعر: $1110", "flow": "pubg"},
 
-    "Prime 1 Month + 60 UC - $5": {"text": "PUBG Prime\nالمدة: 1 شهر\nبونص: 60 UC\nالسعر: $5", "flow": "pubg"},
-    "Prime 3 Month + 60 UC - $7.5": {"text": "PUBG Prime\nالمدة: 3 أشهر\nبونص: 60 UC\nالسعر: $7.5", "flow": "pubg"},
-    "Prime 6 Month + 60 UC - $13": {"text": "PUBG Prime\nالمدة: 6 أشهر\nبونص: 60 UC\nالسعر: $13", "flow": "pubg"},
-    "Prime 12 Month + 60 UC - $20": {"text": "PUBG Prime\nالمدة: 12 شهر\nبونص: 60 UC\nالسعر: $20", "flow": "pubg"},
-    "Prime Plus 1 Month + 60 UC - $16": {"text": "PUBG Prime Plus\nالمدة: 1 شهر\nبونص: 60 UC\nالسعر: $16", "flow": "pubg"},
-    "Prime Plus 3 Month + 60 UC - $43": {"text": "PUBG Prime Plus\nالمدة: 3 أشهر\nبونص: 60 UC\nالسعر: $43", "flow": "pubg"},
-    "Prime Plus 6 Month + 60 UC - $77": {"text": "PUBG Prime Plus\nالمدة: 6 أشهر\nبونص: 60 UC\nالسعر: $77", "flow": "pubg"},
-    "Prime Plus 12 Month + 60 UC - $155": {"text": "PUBG Prime Plus\nالمدة: 12 شهر\nبونص: 60 UC\nالسعر: $155", "flow": "pubg"},
+    "Prime 1 Month + 60 UC - $5": {"text": "👑 PUBG Prime\n📅 المدة: 1 شهر\n🎁 بونص: 60 UC\n💵 السعر: $5", "flow": "pubg"},
+    "Prime 3 Month + 60 UC - $7.5": {"text": "👑 PUBG Prime\n📅 المدة: 3 أشهر\n🎁 بونص: 60 UC\n💵 السعر: $7.5", "flow": "pubg"},
+    "Prime 6 Month + 60 UC - $13": {"text": "👑 PUBG Prime\n📅 المدة: 6 أشهر\n🎁 بونص: 60 UC\n💵 السعر: $13", "flow": "pubg"},
+    "Prime 12 Month + 60 UC - $20": {"text": "👑 PUBG Prime\n📅 المدة: 12 شهر\n🎁 بونص: 60 UC\n💵 السعر: $20", "flow": "pubg"},
+    "Prime Plus 1 Month + 60 UC - $16": {"text": "👑 PUBG Prime Plus\n📅 المدة: 1 شهر\n🎁 بونص: 60 UC\n💵 السعر: $16", "flow": "pubg"},
+    "Prime Plus 3 Month + 60 UC - $43": {"text": "👑 PUBG Prime Plus\n📅 المدة: 3 أشهر\n🎁 بونص: 60 UC\n💵 السعر: $43", "flow": "pubg"},
+    "Prime Plus 6 Month + 60 UC - $77": {"text": "👑 PUBG Prime Plus\n📅 المدة: 6 أشهر\n🎁 بونص: 60 UC\n💵 السعر: $77", "flow": "pubg"},
+    "Prime Plus 12 Month + 60 UC - $155": {"text": "👑 PUBG Prime Plus\n📅 المدة: 12 شهر\n🎁 بونص: 60 UC\n💵 السعر: $155", "flow": "pubg"},
 }
 
 PRODUCT_TEXTS_EXTRA = {
-    "Apple USA - $2 - $3": "Apple iTunes USA\nالقيمة: $2\nالسعر: $3",
-    "Apple USA - $3 - $4": "Apple iTunes USA\nالقيمة: $3\nالسعر: $4",
-    "Apple USA - $4 - $5.5": "Apple iTunes USA\nالقيمة: $4\nالسعر: $5.5",
-    "Apple USA - $5 - $6.70": "Apple iTunes USA\nالقيمة: $5\nالسعر: $6.70",
-    "Apple USA - $10 - $12": "Apple iTunes USA\nالقيمة: $10\nالسعر: $12",
-    "Apple USA - $20 - $23": "Apple iTunes USA\nالقيمة: $20\nالسعر: $23",
-    "Apple USA - $25 - $28.5": "Apple iTunes USA\nالقيمة: $25\nالسعر: $28.5",
-    "Apple USA - $50 - $56.5": "Apple iTunes USA\nالقيمة: $50\nالسعر: $56.5",
-    "Apple USA - $100 - $112": "Apple iTunes USA\nالقيمة: $100\nالسعر: $112",
-    "Apple USA - $200 - $225": "Apple iTunes USA\nالقيمة: $200\nالسعر: $225",
-    "Apple USA - $500 - $540": "Apple iTunes USA\nالقيمة: $500\nالسعر: $540",
+    "Apple USA - $2 - $3": "🍎 Apple iTunes USA\n📦 القيمة: $2\n💵 السعر: $3",
+    "Apple USA - $3 - $4": "🍎 Apple iTunes USA\n📦 القيمة: $3\n💵 السعر: $4",
+    "Apple USA - $4 - $5.5": "🍎 Apple iTunes USA\n📦 القيمة: $4\n💵 السعر: $5.5",
+    "Apple USA - $5 - $6.70": "🍎 Apple iTunes USA\n📦 القيمة: $5\n💵 السعر: $6.70",
+    "Apple USA - $10 - $12": "🍎 Apple iTunes USA\n📦 القيمة: $10\n💵 السعر: $12",
+    "Apple USA - $20 - $23": "🍎 Apple iTunes USA\n📦 القيمة: $20\n💵 السعر: $23",
+    "Apple USA - $25 - $28.5": "🍎 Apple iTunes USA\n📦 القيمة: $25\n💵 السعر: $28.5",
+    "Apple USA - $50 - $56.5": "🍎 Apple iTunes USA\n📦 القيمة: $50\n💵 السعر: $56.5",
+    "Apple USA - $100 - $112": "🍎 Apple iTunes USA\n📦 القيمة: $100\n💵 السعر: $112",
+    "Apple USA - $200 - $225": "🍎 Apple iTunes USA\n📦 القيمة: $200\n💵 السعر: $225",
+    "Apple USA - $500 - $540": "🍎 Apple iTunes USA\n📦 القيمة: $500\n💵 السعر: $540",
 
-    "Apple KSA - 50 SAR - $16": "Apple iTunes السعودية\nالقيمة: 50 SAR\nالسعر: $16",
-    "Apple KSA - 100 SAR - $32": "Apple iTunes السعودية\nالقيمة: 100 SAR\nالسعر: $32",
-    "Apple KSA - 200 SAR - $62": "Apple iTunes السعودية\nالقيمة: 200 SAR\nالسعر: $62",
-    "Apple KSA - 500 SAR - $150": "Apple iTunes السعودية\nالقيمة: 500 SAR\nالسعر: $150",
-    "Apple KSA - 1000 SAR - $298": "Apple iTunes السعودية\nالقيمة: 1000 SAR\nالسعر: $298",
+    "Apple KSA - 50 SAR - $16": "🍎 Apple iTunes السعودية\n📦 القيمة: 50 SAR\n💵 السعر: $16",
+    "Apple KSA - 100 SAR - $32": "🍎 Apple iTunes السعودية\n📦 القيمة: 100 SAR\n💵 السعر: $32",
+    "Apple KSA - 200 SAR - $62": "🍎 Apple iTunes السعودية\n📦 القيمة: 200 SAR\n💵 السعر: $62",
+    "Apple KSA - 500 SAR - $150": "🍎 Apple iTunes السعودية\n📦 القيمة: 500 SAR\n💵 السعر: $150",
+    "Apple KSA - 1000 SAR - $298": "🍎 Apple iTunes السعودية\n📦 القيمة: 1000 SAR\n💵 السعر: $298",
 
-    "Apple UAE - 50 AED - $17.60": "Apple iTunes الإمارات\nالقيمة: 50 AED\nالسعر: $17.60",
-    "Apple UAE - 100 AED - $35": "Apple iTunes الإمارات\nالقيمة: 100 AED\nالسعر: $35",
-    "Apple UAE - 200 AED - $68": "Apple iTunes الإمارات\nالقيمة: 200 AED\nالسعر: $68",
-    "Apple UAE - 500 AED - $166": "Apple iTunes الإمارات\nالقيمة: 500 AED\nالسعر: $166",
-    "Apple UAE - 1000 AED - $327": "Apple iTunes الإمارات\nالقيمة: 1000 AED\nالسعر: $327",
+    "Apple UAE - 50 AED - $17.60": "🍎 Apple iTunes الإمارات\n📦 القيمة: 50 AED\n💵 السعر: $17.60",
+    "Apple UAE - 100 AED - $35": "🍎 Apple iTunes الإمارات\n📦 القيمة: 100 AED\n💵 السعر: $35",
+    "Apple UAE - 200 AED - $68": "🍎 Apple iTunes الإمارات\n📦 القيمة: 200 AED\n💵 السعر: $68",
+    "Apple UAE - 500 AED - $166": "🍎 Apple iTunes الإمارات\n📦 القيمة: 500 AED\n💵 السعر: $166",
+    "Apple UAE - 1000 AED - $327": "🍎 Apple iTunes الإمارات\n📦 القيمة: 1000 AED\n💵 السعر: $327",
 
-    "PSN UAE - $10 - $13": "PSN الإمارات\nالقيمة: $10\nالسعر: $13",
-    "PSN UAE - $20 - $25": "PSN الإمارات\nالقيمة: $20\nالسعر: $25",
-    "PSN UAE - $30 - $37": "PSN الإمارات\nالقيمة: $30\nالسعر: $37",
-    "PSN UAE - $50 - $57": "PSN الإمارات\nالقيمة: $50\nالسعر: $57",
-    "PSN UAE - $70 - $79": "PSN الإمارات\nالقيمة: $70\nالسعر: $79",
-    "PSN UAE - $100 - $108": "PSN الإمارات\nالقيمة: $100\nالسعر: $108",
+    "PSN UAE - $10 - $13": "🎮 PSN الإمارات\n📦 القيمة: $10\n💵 السعر: $13",
+    "PSN UAE - $20 - $25": "🎮 PSN الإمارات\n📦 القيمة: $20\n💵 السعر: $25",
+    "PSN UAE - $30 - $37": "🎮 PSN الإمارات\n📦 القيمة: $30\n💵 السعر: $37",
+    "PSN UAE - $50 - $57": "🎮 PSN الإمارات\n📦 القيمة: $50\n💵 السعر: $57",
+    "PSN UAE - $70 - $79": "🎮 PSN الإمارات\n📦 القيمة: $70\n💵 السعر: $79",
+    "PSN UAE - $100 - $108": "🎮 PSN الإمارات\n📦 القيمة: $100\n💵 السعر: $108",
 
-    "PSN USA - $10 - $15": "PSN أمريكا\nالقيمة: $10\nالسعر: $15",
-    "PSN USA - $20 - $30": "PSN أمريكا\nالقيمة: $20\nالسعر: $30",
-    "PSN USA - $50 - $70": "PSN أمريكا\nالقيمة: $50\nالسعر: $70",
-    "PSN USA - $100 - $130": "PSN أمريكا\nالقيمة: $100\nالسعر: $130",
+    "PSN USA - $10 - $15": "🎮 PSN أمريكا\n📦 القيمة: $10\n💵 السعر: $15",
+    "PSN USA - $20 - $30": "🎮 PSN أمريكا\n📦 القيمة: $20\n💵 السعر: $30",
+    "PSN USA - $50 - $70": "🎮 PSN أمريكا\n📦 القيمة: $50\n💵 السعر: $70",
+    "PSN USA - $100 - $130": "🎮 PSN أمريكا\n📦 القيمة: $100\n💵 السعر: $130",
 
-    "Steam KSA - 5 SAR - $3.5": "Steam السعودية\nالقيمة: 5 SAR\nالسعر: $3.5",
-    "Steam KSA - 10 SAR - $6.5": "Steam السعودية\nالقيمة: 10 SAR\nالسعر: $6.5",
-    "Steam KSA - 20 SAR - $11": "Steam السعودية\nالقيمة: 20 SAR\nالسعر: $11",
-    "Steam KSA - 50 SAR - $22": "Steam السعودية\nالقيمة: 50 SAR\nالسعر: $22",
-    "Steam KSA - 100 SAR - $40": "Steam السعودية\nالقيمة: 100 SAR\nالسعر: $40",
-    "Steam KSA - 200 SAR - $64": "Steam السعودية\nالقيمة: 200 SAR\nالسعر: $64",
+    "Steam KSA - 5 SAR - $3.5": "🎮 Steam السعودية\n📦 القيمة: 5 SAR\n💵 السعر: $3.5",
+    "Steam KSA - 10 SAR - $6.5": "🎮 Steam السعودية\n📦 القيمة: 10 SAR\n💵 السعر: $6.5",
+    "Steam KSA - 20 SAR - $11": "🎮 Steam السعودية\n📦 القيمة: 20 SAR\n💵 السعر: $11",
+    "Steam KSA - 50 SAR - $22": "🎮 Steam السعودية\n📦 القيمة: 50 SAR\n💵 السعر: $22",
+    "Steam KSA - 100 SAR - $40": "🎮 Steam السعودية\n📦 القيمة: 100 SAR\n💵 السعر: $40",
+    "Steam KSA - 200 SAR - $64": "🎮 Steam السعودية\n📦 القيمة: 200 SAR\n💵 السعر: $64",
 
-    "Steam UAE - 1.40 AED - $1": "Steam الإمارات\nالقيمة: 1.40 AED\nالسعر: $1",
-    "Steam UAE - 2.80 AED - $1.8": "Steam الإمارات\nالقيمة: 2.80 AED\nالسعر: $1.8",
-    "Steam UAE - 18.60 AED - $7.5": "Steam الإمارات\nالقيمة: 18.60 AED\nالسعر: $7.5",
-    "Steam UAE - 37.50 AED - $15": "Steam الإمارات\nالقيمة: 37.50 AED\nالسعر: $15",
-    "Steam UAE - 46.80 AED - $18.5": "Steam الإمارات\nالقيمة: 46.80 AED\nالسعر: $18.5",
-    "Steam UAE - 93.88 AED - $34.5": "Steam الإمارات\nالقيمة: 93.88 AED\nالسعر: $34.5",
-    "Steam UAE - 140.80 AED - $51": "Steam الإمارات\nالقيمة: 140.80 AED\nالسعر: $51",
-    "Steam UAE - 234.60 AED - $84": "Steam الإمارات\nالقيمة: 234.60 AED\nالسعر: $84",
-    "Steam UAE - 469.40 AED - $166": "Steam الإمارات\nالقيمة: 469.40 AED\nالسعر: $166",
-    "Steam UAE - 938.90 AED - $326": "Steam الإمارات\nالقيمة: 938.90 AED\nالسعر: $326",
+    "Steam UAE - 1.40 AED - $1": "🎮 Steam الإمارات\n📦 القيمة: 1.40 AED\n💵 السعر: $1",
+    "Steam UAE - 2.80 AED - $1.8": "🎮 Steam الإمارات\n📦 القيمة: 2.80 AED\n💵 السعر: $1.8",
+    "Steam UAE - 18.60 AED - $7.5": "🎮 Steam الإمارات\n📦 القيمة: 18.60 AED\n💵 السعر: $7.5",
+    "Steam UAE - 37.50 AED - $15": "🎮 Steam الإمارات\n📦 القيمة: 37.50 AED\n💵 السعر: $15",
+    "Steam UAE - 46.80 AED - $18.5": "🎮 Steam الإمارات\n📦 القيمة: 46.80 AED\n💵 السعر: $18.5",
+    "Steam UAE - 93.88 AED - $34.5": "🎮 Steam الإمارات\n📦 القيمة: 93.88 AED\n💵 السعر: $34.5",
+    "Steam UAE - 140.80 AED - $51": "🎮 Steam الإمارات\n📦 القيمة: 140.80 AED\n💵 السعر: $51",
+    "Steam UAE - 234.60 AED - $84": "🎮 Steam الإمارات\n📦 القيمة: 234.60 AED\n💵 السعر: $84",
+    "Steam UAE - 469.40 AED - $166": "🎮 Steam الإمارات\n📦 القيمة: 469.40 AED\n💵 السعر: $166",
+    "Steam UAE - 938.90 AED - $326": "🎮 Steam الإمارات\n📦 القيمة: 938.90 AED\n💵 السعر: $326",
 
-    "Amazon KSA - 100 SAR - $35": "Amazon السعودية\nالقيمة: 100 SAR\nالسعر: $35",
-    "Amazon KSA - 200 SAR - $70": "Amazon السعودية\nالقيمة: 200 SAR\nالسعر: $70",
-    "Amazon KSA - 300 SAR - $100": "Amazon السعودية\nالقيمة: 300 SAR\nالسعر: $100",
-    "Amazon KSA - 400 SAR - $130": "Amazon السعودية\nالقيمة: 400 SAR\nالسعر: $130",
-    "Amazon KSA - 500 SAR - $160": "Amazon السعودية\nالقيمة: 500 SAR\nالسعر: $160",
-    "Amazon KSA - 1000 SAR - $310": "Amazon السعودية\nالقيمة: 1000 SAR\nالسعر: $310",
-    "Amazon KSA - 2000 SAR - $613": "Amazon السعودية\nالقيمة: 2000 SAR\nالسعر: $613",
-    "Amazon KSA - 5000 SAR - $1550": "Amazon السعودية\nالقيمة: 5000 SAR\nالسعر: $1550",
+    "Amazon KSA - 100 SAR - $35": "🛒 Amazon السعودية\n📦 القيمة: 100 SAR\n💵 السعر: $35",
+    "Amazon KSA - 200 SAR - $70": "🛒 Amazon السعودية\n📦 القيمة: 200 SAR\n💵 السعر: $70",
+    "Amazon KSA - 300 SAR - $100": "🛒 Amazon السعودية\n📦 القيمة: 300 SAR\n💵 السعر: $100",
+    "Amazon KSA - 400 SAR - $130": "🛒 Amazon السعودية\n📦 القيمة: 400 SAR\n💵 السعر: $130",
+    "Amazon KSA - 500 SAR - $160": "🛒 Amazon السعودية\n📦 القيمة: 500 SAR\n💵 السعر: $160",
+    "Amazon KSA - 1000 SAR - $310": "🛒 Amazon السعودية\n📦 القيمة: 1000 SAR\n💵 السعر: $310",
+    "Amazon KSA - 2000 SAR - $613": "🛒 Amazon السعودية\n📦 القيمة: 2000 SAR\n💵 السعر: $613",
+    "Amazon KSA - 5000 SAR - $1550": "🛒 Amazon السعودية\n📦 القيمة: 5000 SAR\n💵 السعر: $1550",
 
-    "Amazon UAE - 100 AED - $32": "Amazon الإمارات\nالقيمة: 100 AED\nالسعر: $32",
-    "Amazon UAE - 150 AED - $46.70": "Amazon الإمارات\nالقيمة: 150 AED\nالسعر: $46.70",
-    "Amazon UAE - 200 AED - $61.5": "Amazon الإمارات\nالقيمة: 200 AED\nالسعر: $61.5",
-    "Amazon UAE - 250 AED - $75.5": "Amazon الإمارات\nالقيمة: 250 AED\nالسعر: $75.5",
-    "Amazon UAE - 300 AED - $91": "Amazon الإمارات\nالقيمة: 300 AED\nالسعر: $91",
-    "Amazon UAE - 400 AED - $157": "Amazon الإمارات\nالقيمة: 400 AED\nالسعر: $157",
+    "Amazon UAE - 100 AED - $32": "🛒 Amazon الإمارات\n📦 القيمة: 100 AED\n💵 السعر: $32",
+    "Amazon UAE - 150 AED - $46.70": "🛒 Amazon الإمارات\n📦 القيمة: 150 AED\n💵 السعر: $46.70",
+    "Amazon UAE - 200 AED - $61.5": "🛒 Amazon الإمارات\n📦 القيمة: 200 AED\n💵 السعر: $61.5",
+    "Amazon UAE - 250 AED - $75.5": "🛒 Amazon الإمارات\n📦 القيمة: 250 AED\n💵 السعر: $75.5",
+    "Amazon UAE - 300 AED - $91": "🛒 Amazon الإمارات\n📦 القيمة: 300 AED\n💵 السعر: $91",
+    "Amazon UAE - 400 AED - $157": "🛒 Amazon الإمارات\n📦 القيمة: 400 AED\n💵 السعر: $157",
 
-    "Roblox UAE - 20 AED - $7.5": "Roblox الإمارات\nالقيمة: 20 AED\nالسعر: $7.5",
-    "Roblox UAE - 50 AED - $16": "Roblox الإمارات\nالقيمة: 50 AED\nالسعر: $16",
-    "Roblox UAE - 100 AED - $31.5": "Roblox الإمارات\nالقيمة: 100 AED\nالسعر: $31.5",
-    "Roblox UAE - 200 AED - $60": "Roblox الإمارات\nالقيمة: 200 AED\nالسعر: $60",
-    "Roblox UAE - 500 AED - $142": "Roblox الإمارات\nالقيمة: 500 AED\nالسعر: $142",
+    "Roblox UAE - 20 AED - $7.5": "🎮 Roblox الإمارات\n📦 القيمة: 20 AED\n💵 السعر: $7.5",
+    "Roblox UAE - 50 AED - $16": "🎮 Roblox الإمارات\n📦 القيمة: 50 AED\n💵 السعر: $16",
+    "Roblox UAE - 100 AED - $31.5": "🎮 Roblox الإمارات\n📦 القيمة: 100 AED\n💵 السعر: $31.5",
+    "Roblox UAE - 200 AED - $60": "🎮 Roblox الإمارات\n📦 القيمة: 200 AED\n💵 السعر: $60",
+    "Roblox UAE - 500 AED - $142": "🎮 Roblox الإمارات\n📦 القيمة: 500 AED\n💵 السعر: $142",
 }
 
 for k, v in PRODUCT_TEXTS_EXTRA.items():
@@ -624,7 +624,7 @@ def show_currency_menu(chat_id: int, product_key: str):
 
     text = f"""{product['text']}
 
-اختر العملة التي تريد الدفع بها:"""
+💳 اختر العملة التي تريد الدفع بها:"""
 
     buttons = [
         "USDT (TRC20)",
@@ -649,8 +649,8 @@ def show_wallet_and_next_step(chat_id: int, currency: str):
 
     base_text = f"""{product['text']}
 
-طريقة الدفع: {currency}
-عنوان المحفظة:
+💳 طريقة الدفع: {currency}
+📮 عنوان المحفظة:
 {wallet}
 """
 
@@ -658,43 +658,43 @@ def show_wallet_and_next_step(chat_id: int, currency: str):
 
     if flow == "chatgpt":
         text = f"""{base_text}
-بعد إتمام الدفع، يرجى إرسال رسالة إلى الدعم مع صورة الدفع أو TXID:
+📩 بعد إتمام الدفع، يرجى إرسال رسالة إلى الدعم مع صورة الدفع أو TXID:
 
-{SUPPORT_USERNAME}
+👉 {SUPPORT_USERNAME}
 
-نحن متاحون للرد 24/7
-جميع الطلبات يتم تسليمها خلال 5 إلى 10 دقائق كحد أقصى"""
-        send_message(chat_id, text, ["⬅️ رجوع إلى المنتجات", "الدعم"])
+🟢 نحن متاحون للرد 24/7
+⚡ جميع الطلبات يتم تسليمها خلال 5 إلى 10 دقائق كحد أقصى"""
+        send_message(chat_id, text, ["⬅️ رجوع إلى المنتجات", "📩 الدعم"])
 
     elif flow == "stars":
         st["awaiting"] = "telegram_username"
         text = f"""{base_text}
-بعد الدفع، أرسل يوزر تيليجرام الخاص بك هنا داخل البوت.
+⭐ بعد الدفع، أرسل يوزر تيليجرام الخاص بك هنا داخل البوت.
 
 مثال:
 @username
 
-سيتم تنفيذ الطلب خلال 5 إلى 10 دقائق"""
+⚡ سيتم تنفيذ الطلب خلال 5 إلى 10 دقائق"""
         send_message(chat_id, text, ["⬅️ رجوع إلى المنتجات"])
 
     elif flow == "pubg":
         st["awaiting"] = "pubg_id"
         text = f"""{base_text}
-بعد الدفع، أرسل ID الخاص بك في PUBG هنا داخل البوت.
+🎮 بعد الدفع، أرسل ID الخاص بك في PUBG هنا داخل البوت.
 
-كيفية معرفة ID الخاص بك:
+📌 كيفية معرفة ID الخاص بك:
 • افتح لعبة PUBG Mobile
 • اضغط على صورتك الشخصية في أعلى يسار الشاشة
 • انسخ الـ ID وهو الأرقام الموجودة تحت اسمك
 
-سيتم تنفيذ الطلب خلال 5 إلى 10 دقائق"""
+⚡ سيتم تنفيذ الطلب خلال 5 إلى 10 دقائق"""
         send_message(chat_id, text, ["⬅️ رجوع إلى المنتجات"])
 
     else:
         text = f"""{base_text}
-بعد الدفع، اختر إحدى الطرق التالية لإرسال إثبات الدفع:"""
+📤 بعد الدفع، اختر إحدى الطرق التالية لإرسال إثبات الدفع:"""
         st["awaiting"] = None
-        send_message(chat_id, text, ["إرسال TXID", "إرسال صورة الدفع", "⬅️ رجوع إلى المنتجات"])
+        send_message(chat_id, text, ["📄 إرسال TXID", "📸 إرسال صورة الدفع", "⬅️ رجوع إلى المنتجات"])
 
 
 def show_product(chat_id: int, product_key: str):
@@ -712,76 +712,76 @@ def handle_proof_text(message: dict):
 
     if st.get("awaiting") == "txid":
         admin_notify(
-            f"""إثبات دفع جديد (TXID)
+            f"""📥 إثبات دفع جديد (TXID)
 
-الاسم: {first_name}
-user_id: {chat_id}
-username: @{username if username else 'none'}
+👤 الاسم: {first_name}
+🆔 user_id: {chat_id}
+🔗 username: @{username if username else 'none'}
 
-المنتج:
+📦 المنتج:
 {selected_product}
 
-العملة:
+💳 العملة:
 {selected_currency}
 
-TXID:
+🧾 TXID:
 {text}"""
         )
         st["awaiting"] = None
         send_message(
             chat_id,
-            "تم استلام TXID بنجاح.\nسيتم مراجعة الدفع وإرسال الطلب لك في أقرب وقت ممكن.",
-            ["⬅️ رجوع إلى القائمة الرئيسية", "الدعم"]
+            "✅ تم استلام TXID بنجاح.\nسيتم مراجعة الدفع وإرسال الطلب لك في أقرب وقت ممكن.",
+            ["⬅️ رجوع إلى القائمة الرئيسية", "📩 الدعم"]
         )
         return True
 
     if st.get("awaiting") == "telegram_username":
         admin_notify(
-            f"""طلب Telegram Stars جديد
+            f"""⭐ طلب Telegram Stars جديد
 
-الاسم: {first_name}
-user_id: {chat_id}
-username داخل تيليجرام: @{username if username else 'none'}
+👤 الاسم: {first_name}
+🆔 user_id: {chat_id}
+🔗 username داخل تيليجرام: @{username if username else 'none'}
 
-المنتج:
+📦 المنتج:
 {selected_product}
 
-العملة:
+💳 العملة:
 {selected_currency}
 
-يوزر المستلم:
+📨 يوزر المستلم:
 {text}"""
         )
         st["awaiting"] = None
         send_message(
             chat_id,
-            "تم استلام يوزر تيليجرام بنجاح.\nسيتم تنفيذ طلبك خلال 5 إلى 10 دقائق.",
-            ["⬅️ رجوع إلى القائمة الرئيسية", "الدعم"]
+            "✅ تم استلام يوزر تيليجرام بنجاح.\nسيتم تنفيذ طلبك خلال 5 إلى 10 دقائق.",
+            ["⬅️ رجوع إلى القائمة الرئيسية", "📩 الدعم"]
         )
         return True
 
     if st.get("awaiting") == "pubg_id":
         admin_notify(
-            f"""طلب PUBG جديد
+            f"""🎮 طلب PUBG جديد
 
-الاسم: {first_name}
-user_id: {chat_id}
-username: @{username if username else 'none'}
+👤 الاسم: {first_name}
+🆔 user_id: {chat_id}
+🔗 username: @{username if username else 'none'}
 
-المنتج:
+📦 المنتج:
 {selected_product}
 
-العملة:
+💳 العملة:
 {selected_currency}
 
-PUBG ID:
+🎮 PUBG ID:
 {text}"""
         )
         st["awaiting"] = None
         send_message(
             chat_id,
-            "تم استلام PUBG ID بنجاح.\nسيتم تنفيذ الطلب خلال 5 إلى 10 دقائق.",
-            ["⬅️ رجوع إلى القائمة الرئيسية", "الدعم"]
+            "✅ تم استلام PUBG ID بنجاح.\nسيتم تنفيذ الطلب خلال 5 إلى 10 دقائق.",
+            ["⬅️ رجوع إلى القائمة الرئيسية", "📩 الدعم"]
         )
         return True
 
@@ -807,16 +807,16 @@ def handle_proof_photo(message: dict):
     selected_product = st.get("selected_product", "")
     selected_currency = st.get("selected_currency", "")
 
-    caption = f"""صورة إثبات دفع جديدة
+    caption = f"""📸 صورة إثبات دفع جديدة
 
-الاسم: {first_name}
-user_id: {chat_id}
-username: @{username if username else 'none'}
+👤 الاسم: {first_name}
+🆔 user_id: {chat_id}
+🔗 username: @{username if username else 'none'}
 
-المنتج:
+📦 المنتج:
 {selected_product}
 
-العملة:
+💳 العملة:
 {selected_currency}"""
 
     admin_notify_photo(file_id, caption)
@@ -824,8 +824,8 @@ username: @{username if username else 'none'}
     st["awaiting"] = None
     send_message(
         chat_id,
-        "تم استلام صورة الدفع بنجاح.\nسيتم مراجعة الدفع وإرسال الطلب لك في أقرب وقت ممكن.",
-        ["⬅️ رجوع إلى القائمة الرئيسية", "الدعم"]
+        "✅ تم استلام صورة الدفع بنجاح.\nسيتم مراجعة الدفع وإرسال الطلب لك في أقرب وقت ممكن.",
+        ["⬅️ رجوع إلى القائمة الرئيسية", "📩 الدعم"]
     )
     return True
 
@@ -849,12 +849,12 @@ def handle_admin_command(message: dict):
         try:
             target_user = int(parts[1])
         except ValueError:
-            send_message(chat_id, "user_id غير صحيح")
+            send_message(chat_id, "❌ user_id غير صحيح")
             return True
 
         msg = parts[2]
-        send_message(target_user, f"رسالة من الإدارة:\n\n{msg}", ["⬅️ رجوع إلى القائمة الرئيسية"])
-        send_message(chat_id, "تم الإرسال")
+        send_message(target_user, f"📩 رسالة من الإدارة:\n\n{msg}", ["⬅️ رجوع إلى القائمة الرئيسية"])
+        send_message(chat_id, "✅ تم الإرسال")
         return True
 
     return False
@@ -876,10 +876,10 @@ def handle_message(message: dict):
         show_menu(chat_id, MAIN_MENU)
         return
 
-    if text == "الدعم":
+    if text == "📩 الدعم":
         send_message(
             chat_id,
-            f"للتواصل المباشر:\n{SUPPORT_USERNAME}",
+            f"📩 للتواصل المباشر:\n{SUPPORT_USERNAME}",
             ["⬅️ رجوع إلى القائمة الرئيسية"]
         )
         return
@@ -903,14 +903,14 @@ def handle_message(message: dict):
         show_wallet_and_next_step(chat_id, text)
         return
 
-    if text == "إرسال TXID":
+    if text == "📄 إرسال TXID":
         st["awaiting"] = "txid"
-        send_message(chat_id, "أرسل TXID هنا الآن.", ["⬅️ رجوع إلى المنتجات"])
+        send_message(chat_id, "🧾 أرسل TXID هنا الآن.", ["⬅️ رجوع إلى المنتجات"])
         return
 
-    if text == "إرسال صورة الدفع":
+    if text == "📸 إرسال صورة الدفع":
         st["awaiting"] = "photo"
-        send_message(chat_id, "أرسل صورة الدفع هنا الآن.", ["⬅️ رجوع إلى المنتجات"])
+        send_message(chat_id, "📸 أرسل صورة الدفع هنا الآن.", ["⬅️ رجوع إلى المنتجات"])
         return
 
     if text in CATALOG:
@@ -921,7 +921,7 @@ def handle_message(message: dict):
         show_product(chat_id, text)
         return
 
-    send_message(chat_id, "اختر من القائمة من فضلك.", CATALOG[MAIN_MENU]["buttons"])
+    send_message(chat_id, "❗ اختر من القائمة من فضلك.", CATALOG[MAIN_MENU]["buttons"])
 
 
 def handle_update(update: dict):
