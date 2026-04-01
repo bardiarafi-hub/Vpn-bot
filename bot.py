@@ -100,6 +100,8 @@ CATALOG = {
             "🌐 VPN",
             "⭐ Telegram Stars",
             "🎮 PUBG Mobile",
+            "💎 Free Fire",
+            "🪙 Fortnite V-Bucks",
             "🍎 Apple iTunes",
             "🎮 PSN",
             "🎮 Steam",
@@ -239,6 +241,27 @@ CATALOG = {
             "Prime Plus 3 Month + 60 UC - $43",
             "Prime Plus 6 Month + 60 UC - $77",
             "Prime Plus 12 Month + 60 UC - $155",
+            "⬅️ رجوع"
+        ],
+    },
+
+    "💎 Free Fire": {
+        "title": "💎 شحن Free Fire\nاختر الباقة:",
+        "buttons": [
+            "💎 100 جوهرة - $2.5",
+            "💎 210 جوهرة - $5",
+            "💎 530 جوهرة - $10",
+            "⬅️ رجوع"
+        ],
+    },
+
+    "🪙 Fortnite V-Bucks": {
+        "title": "🪙 شحن V-Bucks\nاختر الباقة:",
+        "buttons": [
+            "1000 V-Bucks - $31",
+            "2800 V-Bucks - $51",
+            "5000 V-Bucks - $98",
+            "13500 V-Bucks - $399",
             "⬅️ رجوع"
         ],
     },
@@ -442,6 +465,8 @@ PARENT = {
     "🎮 PUBG Mobile": MAIN_MENU,
     "🎮 PUBG UC": "🎮 PUBG Mobile",
     "👑 PUBG Prime / Pass": "🎮 PUBG Mobile",
+    "💎 Free Fire": MAIN_MENU,
+    "🪙 Fortnite V-Bucks": MAIN_MENU,
     "🍎 Apple iTunes": MAIN_MENU,
     "Apple iTunes - USA": "🍎 Apple iTunes",
     "Apple iTunes - Saudi Arabia": "🍎 Apple iTunes",
@@ -570,6 +595,36 @@ PRODUCTS = {
     "Prime Plus 3 Month + 60 UC - $43": {"text": "👑 PUBG Prime Plus\n📅 المدة: 3 أشهر\n🎁 بونص: 60 UC\n💵 السعر: $43", "flow": "pubg"},
     "Prime Plus 6 Month + 60 UC - $77": {"text": "👑 PUBG Prime Plus\n📅 المدة: 6 أشهر\n🎁 بونص: 60 UC\n💵 السعر: $77", "flow": "pubg"},
     "Prime Plus 12 Month + 60 UC - $155": {"text": "👑 PUBG Prime Plus\n📅 المدة: 12 شهر\n🎁 بونص: 60 UC\n💵 السعر: $155", "flow": "pubg"},
+
+    "💎 100 جوهرة - $2.5": {
+        "text": "💎 شحن Free Fire\n📦 الكمية: 100 جوهرة\n💵 السعر: $2.5",
+        "flow": "proof"
+    },
+    "💎 210 جوهرة - $5": {
+        "text": "💎 شحن Free Fire\n📦 الكمية: 210 جوهرة\n💵 السعر: $5",
+        "flow": "proof"
+    },
+    "💎 530 جوهرة - $10": {
+        "text": "💎 شحن Free Fire\n📦 الكمية: 530 جوهرة\n💵 السعر: $10",
+        "flow": "proof"
+    },
+
+    "1000 V-Bucks - $31": {
+        "text": "🪙 شحن V-Bucks\n📦 الكمية: 1000 V-Bucks\n💵 السعر: $31",
+        "flow": "proof"
+    },
+    "2800 V-Bucks - $51": {
+        "text": "🪙 شحن V-Bucks\n📦 الكمية: 2800 V-Bucks\n💵 السعر: $51",
+        "flow": "proof"
+    },
+    "5000 V-Bucks - $98": {
+        "text": "🪙 شحن V-Bucks\n📦 الكمية: 5000 V-Bucks\n💵 السعر: $98",
+        "flow": "proof"
+    },
+    "13500 V-Bucks - $399": {
+        "text": "🪙 شحن V-Bucks\n📦 الكمية: 13500 V-Bucks\n💵 السعر: $399",
+        "flow": "proof"
+    },
 }
 
 PRODUCT_TEXTS_EXTRA = {
