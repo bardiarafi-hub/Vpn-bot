@@ -98,10 +98,11 @@ CATALOG = {
             "🤖 اشتراكات ChatGPT",
             "🆕 إنشاء حسابات ChatGPT",
             "🌐 VPN",
-            "⭐ Telegram Stars",
+            "📱 Telegram",
             "🎮 PUBG Mobile",
             "💎 Free Fire",
             "🪙 Fortnite V-Bucks",
+            "📶 eSIM",
             "🍎 Apple iTunes",
             "🎮 PSN",
             "🎮 Steam",
@@ -186,6 +187,15 @@ CATALOG = {
         ],
     },
 
+    "📱 Telegram": {
+        "title": "📱 خدمات Telegram\nاختر الخدمة:",
+        "buttons": [
+            "⭐ Telegram Stars",
+            "💎 Telegram Premium",
+            "⬅️ رجوع"
+        ],
+    },
+
     "⭐ Telegram Stars": {
         "title": "⭐ Telegram Stars\nاختر الكمية:",
         "buttons": [
@@ -197,6 +207,16 @@ CATALOG = {
             "2000 Stars - $40",
             "3000 Stars - $60",
             "5000 Stars - $90",
+            "⬅️ رجوع"
+        ],
+    },
+
+    "💎 Telegram Premium": {
+        "title": "💎 Telegram Premium\nاختر الباقة:",
+        "buttons": [
+            "Telegram Premium - 3 Months - $20",
+            "Telegram Premium - 6 Months - $28",
+            "Telegram Premium - 1 Year - $52",
             "⬅️ رجوع"
         ],
     },
@@ -262,6 +282,124 @@ CATALOG = {
             "2800 V-Bucks - $51",
             "5000 V-Bucks - $98",
             "13500 V-Bucks - $399",
+            "⬅️ رجوع"
+        ],
+    },
+
+    "📶 eSIM": {
+        "title": "📶 eSIM\nاختر المنطقة:",
+        "buttons": [
+            "eSIM - USA 🇺🇸",
+            "eSIM - UAE 🇦🇪",
+            "eSIM - Thailand 🇹🇭",
+            "eSIM - Turkey 🇹🇷",
+            "eSIM - China 🇨🇳",
+            "eSIM - Japan 🇯🇵",
+            "eSIM - Egypt 🇪🇬",
+            "eSIM - Brazil 🇧🇷",
+            "eSIM - Maldives 🇲🇻",
+            "eSIM - Europe (42 countries) 🇪🇺",
+            "⬅️ رجوع"
+        ],
+    },
+
+    "eSIM - USA 🇺🇸": {
+        "title": "📶 eSIM USA 🇺🇸\nاختر الباقة:",
+        "buttons": [
+            "USA 30 Day - 1GB - $5",
+            "USA 30 Day - 5GB - $15",
+            "USA 30 Day - 10GB - $25",
+            "USA 30 Day - 20GB - $45",
+            "⬅️ رجوع"
+        ],
+    },
+    "eSIM - UAE 🇦🇪": {
+        "title": "📶 eSIM UAE 🇦🇪\nاختر الباقة:",
+        "buttons": [
+            "UAE 30 Day - 1GB - $5",
+            "UAE 30 Day - 5GB - $15",
+            "UAE 30 Day - 10GB - $25",
+            "UAE 30 Day - 20GB - $45",
+            "⬅️ رجوع"
+        ],
+    },
+    "eSIM - Thailand 🇹🇭": {
+        "title": "📶 eSIM Thailand 🇹🇭\nاختر الباقة:",
+        "buttons": [
+            "Thailand 30 Day - 1GB - $5",
+            "Thailand 30 Day - 5GB - $15",
+            "Thailand 30 Day - 10GB - $25",
+            "Thailand 30 Day - 20GB - $45",
+            "⬅️ رجوع"
+        ],
+    },
+    "eSIM - Turkey 🇹🇷": {
+        "title": "📶 eSIM Turkey 🇹🇷\nاختر الباقة:",
+        "buttons": [
+            "Turkey 30 Day - 1GB - $5",
+            "Turkey 30 Day - 5GB - $15",
+            "Turkey 30 Day - 10GB - $25",
+            "Turkey 30 Day - 20GB - $45",
+            "⬅️ رجوع"
+        ],
+    },
+    "eSIM - China 🇨🇳": {
+        "title": "📶 eSIM China 🇨🇳\nاختر الباقة:",
+        "buttons": [
+            "China 30 Day - 1GB - $5",
+            "China 30 Day - 5GB - $15",
+            "China 30 Day - 10GB - $25",
+            "China 30 Day - 20GB - $45",
+            "⬅️ رجوع"
+        ],
+    },
+    "eSIM - Japan 🇯🇵": {
+        "title": "📶 eSIM Japan 🇯🇵\nاختر الباقة:",
+        "buttons": [
+            "Japan 30 Day - 1GB - $5",
+            "Japan 30 Day - 5GB - $15",
+            "Japan 30 Day - 10GB - $25",
+            "Japan 30 Day - 20GB - $45",
+            "⬅️ رجوع"
+        ],
+    },
+    "eSIM - Egypt 🇪🇬": {
+        "title": "📶 eSIM Egypt 🇪🇬\nاختر الباقة:",
+        "buttons": [
+            "Egypt 30 Day - 1GB - $5",
+            "Egypt 30 Day - 5GB - $15",
+            "Egypt 30 Day - 10GB - $25",
+            "Egypt 30 Day - 20GB - $45",
+            "⬅️ رجوع"
+        ],
+    },
+    "eSIM - Brazil 🇧🇷": {
+        "title": "📶 eSIM Brazil 🇧🇷\nاختر الباقة:",
+        "buttons": [
+            "Brazil 30 Day - 1GB - $5",
+            "Brazil 30 Day - 5GB - $15",
+            "Brazil 30 Day - 10GB - $25",
+            "Brazil 30 Day - 20GB - $45",
+            "⬅️ رجوع"
+        ],
+    },
+    "eSIM - Maldives 🇲🇻": {
+        "title": "📶 eSIM Maldives 🇲🇻\nاختر الباقة:",
+        "buttons": [
+            "Maldives 30 Day - 1GB - $5",
+            "Maldives 30 Day - 5GB - $15",
+            "Maldives 30 Day - 10GB - $25",
+            "Maldives 30 Day - 20GB - $45",
+            "⬅️ رجوع"
+        ],
+    },
+    "eSIM - Europe (42 countries) 🇪🇺": {
+        "title": "📶 eSIM Europe (42 countries) 🇪🇺\nاختر الباقة:",
+        "buttons": [
+            "Europe 30 Day - 1GB - $5",
+            "Europe 30 Day - 5GB - $15",
+            "Europe 30 Day - 10GB - $25",
+            "Europe 30 Day - 20GB - $45",
             "⬅️ رجوع"
         ],
     },
@@ -456,31 +594,54 @@ CATALOG = {
 PARENT = {
     "🤖 اشتراكات ChatGPT": MAIN_MENU,
     "🆕 إنشاء حسابات ChatGPT": MAIN_MENU,
+
     "🌐 VPN": MAIN_MENU,
     "WireGuard": "🌐 VPN",
     "VLESS - 10 IP 🌍": "🌐 VPN",
     "OpenVPN for 10 devices": "🌐 VPN",
     "NordVPN for 10 devices": "🌐 VPN",
-    "⭐ Telegram Stars": MAIN_MENU,
+
+    "📱 Telegram": MAIN_MENU,
+    "⭐ Telegram Stars": "📱 Telegram",
+    "💎 Telegram Premium": "📱 Telegram",
+
     "🎮 PUBG Mobile": MAIN_MENU,
     "🎮 PUBG UC": "🎮 PUBG Mobile",
     "👑 PUBG Prime / Pass": "🎮 PUBG Mobile",
+
     "💎 Free Fire": MAIN_MENU,
     "🪙 Fortnite V-Bucks": MAIN_MENU,
+
+    "📶 eSIM": MAIN_MENU,
+    "eSIM - USA 🇺🇸": "📶 eSIM",
+    "eSIM - UAE 🇦🇪": "📶 eSIM",
+    "eSIM - Thailand 🇹🇭": "📶 eSIM",
+    "eSIM - Turkey 🇹🇷": "📶 eSIM",
+    "eSIM - China 🇨🇳": "📶 eSIM",
+    "eSIM - Japan 🇯🇵": "📶 eSIM",
+    "eSIM - Egypt 🇪🇬": "📶 eSIM",
+    "eSIM - Brazil 🇧🇷": "📶 eSIM",
+    "eSIM - Maldives 🇲🇻": "📶 eSIM",
+    "eSIM - Europe (42 countries) 🇪🇺": "📶 eSIM",
+
     "🍎 Apple iTunes": MAIN_MENU,
     "Apple iTunes - USA": "🍎 Apple iTunes",
     "Apple iTunes - Saudi Arabia": "🍎 Apple iTunes",
     "Apple iTunes - UAE": "🍎 Apple iTunes",
+
     "🎮 PSN": MAIN_MENU,
     "PSN - UAE": "🎮 PSN",
     "PSN - USA": "🎮 PSN",
+
     "🎮 Steam": MAIN_MENU,
     "Steam - Saudi Arabia": "🎮 Steam",
     "Steam - UAE": "🎮 Steam",
     "Steam - USA": "🎮 Steam",
+
     "🛒 Amazon": MAIN_MENU,
     "Amazon - Saudi Arabia": "🛒 Amazon",
     "Amazon - UAE": "🛒 Amazon",
+
     "🎮 Roblox": MAIN_MENU,
 }
 
@@ -573,6 +734,19 @@ PRODUCTS = {
     "3000 Stars - $60": {"text": "⭐ Telegram Stars\n📦 الكمية: 3000 Stars\n💵 السعر: $60", "flow": "stars"},
     "5000 Stars - $90": {"text": "⭐ Telegram Stars\n📦 الكمية: 5000 Stars\n💵 السعر: $90", "flow": "stars"},
 
+    "Telegram Premium - 3 Months - $20": {
+        "text": "💎 Telegram Premium\n📅 المدة: 3 Months\n💵 السعر: $20",
+        "flow": "telegram_premium"
+    },
+    "Telegram Premium - 6 Months - $28": {
+        "text": "💎 Telegram Premium\n📅 المدة: 6 Months\n💵 السعر: $28",
+        "flow": "telegram_premium"
+    },
+    "Telegram Premium - 1 Year - $52": {
+        "text": "💎 Telegram Premium\n📅 المدة: 1 Year\n💵 السعر: $52",
+        "flow": "telegram_premium"
+    },
+
     "60 UC - $2": {"text": "🎮 PUBG UC\n📦 الكمية: 60 UC\n💵 السعر: $2", "flow": "pubg"},
     "120 UC - $4": {"text": "🎮 PUBG UC\n📦 الكمية: 120 UC\n💵 السعر: $4", "flow": "pubg"},
     "180 UC - $5.2": {"text": "🎮 PUBG UC\n📦 الكمية: 180 UC\n💵 السعر: $5.2", "flow": "pubg"},
@@ -625,6 +799,56 @@ PRODUCTS = {
         "text": "🪙 شحن V-Bucks\n📦 الكمية: 13500 V-Bucks\n💵 السعر: $399",
         "flow": "proof"
     },
+
+    "USA 30 Day - 1GB - $5": {"text": "📶 eSIM USA 🇺🇸\n📅 30 Day\n📦 1GB\n💵 السعر: $5", "flow": "proof"},
+    "USA 30 Day - 5GB - $15": {"text": "📶 eSIM USA 🇺🇸\n📅 30 Day\n📦 5GB\n💵 السعر: $15", "flow": "proof"},
+    "USA 30 Day - 10GB - $25": {"text": "📶 eSIM USA 🇺🇸\n📅 30 Day\n📦 10GB\n💵 السعر: $25", "flow": "proof"},
+    "USA 30 Day - 20GB - $45": {"text": "📶 eSIM USA 🇺🇸\n📅 30 Day\n📦 20GB\n💵 السعر: $45", "flow": "proof"},
+
+    "UAE 30 Day - 1GB - $5": {"text": "📶 eSIM UAE 🇦🇪\n📅 30 Day\n📦 1GB\n💵 السعر: $5", "flow": "proof"},
+    "UAE 30 Day - 5GB - $15": {"text": "📶 eSIM UAE 🇦🇪\n📅 30 Day\n📦 5GB\n💵 السعر: $15", "flow": "proof"},
+    "UAE 30 Day - 10GB - $25": {"text": "📶 eSIM UAE 🇦🇪\n📅 30 Day\n📦 10GB\n💵 السعر: $25", "flow": "proof"},
+    "UAE 30 Day - 20GB - $45": {"text": "📶 eSIM UAE 🇦🇪\n📅 30 Day\n📦 20GB\n💵 السعر: $45", "flow": "proof"},
+
+    "Thailand 30 Day - 1GB - $5": {"text": "📶 eSIM Thailand 🇹🇭\n📅 30 Day\n📦 1GB\n💵 السعر: $5", "flow": "proof"},
+    "Thailand 30 Day - 5GB - $15": {"text": "📶 eSIM Thailand 🇹🇭\n📅 30 Day\n📦 5GB\n💵 السعر: $15", "flow": "proof"},
+    "Thailand 30 Day - 10GB - $25": {"text": "📶 eSIM Thailand 🇹🇭\n📅 30 Day\n📦 10GB\n💵 السعر: $25", "flow": "proof"},
+    "Thailand 30 Day - 20GB - $45": {"text": "📶 eSIM Thailand 🇹🇭\n📅 30 Day\n📦 20GB\n💵 السعر: $45", "flow": "proof"},
+
+    "Turkey 30 Day - 1GB - $5": {"text": "📶 eSIM Turkey 🇹🇷\n📅 30 Day\n📦 1GB\n💵 السعر: $5", "flow": "proof"},
+    "Turkey 30 Day - 5GB - $15": {"text": "📶 eSIM Turkey 🇹🇷\n📅 30 Day\n📦 5GB\n💵 السعر: $15", "flow": "proof"},
+    "Turkey 30 Day - 10GB - $25": {"text": "📶 eSIM Turkey 🇹🇷\n📅 30 Day\n📦 10GB\n💵 السعر: $25", "flow": "proof"},
+    "Turkey 30 Day - 20GB - $45": {"text": "📶 eSIM Turkey 🇹🇷\n📅 30 Day\n📦 20GB\n💵 السعر: $45", "flow": "proof"},
+
+    "China 30 Day - 1GB - $5": {"text": "📶 eSIM China 🇨🇳\n📅 30 Day\n📦 1GB\n💵 السعر: $5", "flow": "proof"},
+    "China 30 Day - 5GB - $15": {"text": "📶 eSIM China 🇨🇳\n📅 30 Day\n📦 5GB\n💵 السعر: $15", "flow": "proof"},
+    "China 30 Day - 10GB - $25": {"text": "📶 eSIM China 🇨🇳\n📅 30 Day\n📦 10GB\n💵 السعر: $25", "flow": "proof"},
+    "China 30 Day - 20GB - $45": {"text": "📶 eSIM China 🇨🇳\n📅 30 Day\n📦 20GB\n💵 السعر: $45", "flow": "proof"},
+
+    "Japan 30 Day - 1GB - $5": {"text": "📶 eSIM Japan 🇯🇵\n📅 30 Day\n📦 1GB\n💵 السعر: $5", "flow": "proof"},
+    "Japan 30 Day - 5GB - $15": {"text": "📶 eSIM Japan 🇯🇵\n📅 30 Day\n📦 5GB\n💵 السعر: $15", "flow": "proof"},
+    "Japan 30 Day - 10GB - $25": {"text": "📶 eSIM Japan 🇯🇵\n📅 30 Day\n📦 10GB\n💵 السعر: $25", "flow": "proof"},
+    "Japan 30 Day - 20GB - $45": {"text": "📶 eSIM Japan 🇯🇵\n📅 30 Day\n📦 20GB\n💵 السعر: $45", "flow": "proof"},
+
+    "Egypt 30 Day - 1GB - $5": {"text": "📶 eSIM Egypt 🇪🇬\n📅 30 Day\n📦 1GB\n💵 السعر: $5", "flow": "proof"},
+    "Egypt 30 Day - 5GB - $15": {"text": "📶 eSIM Egypt 🇪🇬\n📅 30 Day\n📦 5GB\n💵 السعر: $15", "flow": "proof"},
+    "Egypt 30 Day - 10GB - $25": {"text": "📶 eSIM Egypt 🇪🇬\n📅 30 Day\n📦 10GB\n💵 السعر: $25", "flow": "proof"},
+    "Egypt 30 Day - 20GB - $45": {"text": "📶 eSIM Egypt 🇪🇬\n📅 30 Day\n📦 20GB\n💵 السعر: $45", "flow": "proof"},
+
+    "Brazil 30 Day - 1GB - $5": {"text": "📶 eSIM Brazil 🇧🇷\n📅 30 Day\n📦 1GB\n💵 السعر: $5", "flow": "proof"},
+    "Brazil 30 Day - 5GB - $15": {"text": "📶 eSIM Brazil 🇧🇷\n📅 30 Day\n📦 5GB\n💵 السعر: $15", "flow": "proof"},
+    "Brazil 30 Day - 10GB - $25": {"text": "📶 eSIM Brazil 🇧🇷\n📅 30 Day\n📦 10GB\n💵 السعر: $25", "flow": "proof"},
+    "Brazil 30 Day - 20GB - $45": {"text": "📶 eSIM Brazil 🇧🇷\n📅 30 Day\n📦 20GB\n💵 السعر: $45", "flow": "proof"},
+
+    "Maldives 30 Day - 1GB - $5": {"text": "📶 eSIM Maldives 🇲🇻\n📅 30 Day\n📦 1GB\n💵 السعر: $5", "flow": "proof"},
+    "Maldives 30 Day - 5GB - $15": {"text": "📶 eSIM Maldives 🇲🇻\n📅 30 Day\n📦 5GB\n💵 السعر: $15", "flow": "proof"},
+    "Maldives 30 Day - 10GB - $25": {"text": "📶 eSIM Maldives 🇲🇻\n📅 30 Day\n📦 10GB\n💵 السعر: $25", "flow": "proof"},
+    "Maldives 30 Day - 20GB - $45": {"text": "📶 eSIM Maldives 🇲🇻\n📅 30 Day\n📦 20GB\n💵 السعر: $45", "flow": "proof"},
+
+    "Europe 30 Day - 1GB - $5": {"text": "📶 eSIM Europe (42 countries) 🇪🇺\n📅 30 Day\n📦 1GB\n💵 السعر: $5", "flow": "proof"},
+    "Europe 30 Day - 5GB - $15": {"text": "📶 eSIM Europe (42 countries) 🇪🇺\n📅 30 Day\n📦 5GB\n💵 السعر: $15", "flow": "proof"},
+    "Europe 30 Day - 10GB - $25": {"text": "📶 eSIM Europe (42 countries) 🇪🇺\n📅 30 Day\n📦 10GB\n💵 السعر: $25", "flow": "proof"},
+    "Europe 30 Day - 20GB - $45": {"text": "📶 eSIM Europe (42 countries) 🇪🇺\n📅 30 Day\n📦 20GB\n💵 السعر: $45", "flow": "proof"},
 }
 
 PRODUCT_TEXTS_EXTRA = {
@@ -803,6 +1027,12 @@ def show_wallet_and_next_step(chat_id: int, currency: str):
 ⚡ سيتم تنفيذ الطلب خلال 5 إلى 10 دقائق"""
         send_message(chat_id, text, ["⬅️ رجوع إلى المنتجات"])
 
+    elif flow == "telegram_premium":
+        st["awaiting"] = None
+        text = f"""{base_text}
+📤 بعد الدفع، اختر إحدى الطرق التالية لإرسال إثبات الدفع أولاً:"""
+        send_message(chat_id, text, ["📄 إرسال TXID", "📸 إرسال صورة الدفع", "⬅️ رجوع إلى المنتجات"])
+
     elif flow == "pubg":
         st["awaiting"] = None
         text = f"""{base_text}
@@ -888,7 +1118,7 @@ def handle_proof_text(message: dict):
 
     if st.get("awaiting") == "telegram_username":
         admin_notify(
-            f"""⭐ طلب Telegram Stars جديد
+            f"""📥 طلب Telegram جديد
 
 👤 الاسم: {first_name}
 🆔 user_id: {chat_id}
@@ -907,6 +1137,31 @@ def handle_proof_text(message: dict):
         send_message(
             chat_id,
             "✅ تم استلام يوزر تيليجرام بنجاح.\nسيتم تنفيذ طلبك خلال 5 إلى 10 دقائق.",
+            ["⬅️ رجوع إلى القائمة الرئيسية", "📩 الدعم"]
+        )
+        return True
+
+    if st.get("awaiting") == "telegram_premium_username":
+        admin_notify(
+            f"""💎 طلب Telegram Premium جديد
+
+👤 الاسم: {first_name}
+🆔 user_id: {chat_id}
+🔗 username: @{username if username else 'none'}
+
+📦 المنتج:
+{selected_product}
+
+💳 العملة:
+{selected_currency}
+
+📨 Telegram Username:
+{text}"""
+        )
+        st["awaiting"] = None
+        send_message(
+            chat_id,
+            "✅ تم استلام يوزر تيليجرام بنجاح.\nسيتم تنفيذ الطلب قريباً.",
             ["⬅️ رجوع إلى القائمة الرئيسية", "📩 الدعم"]
         )
         return True
@@ -943,7 +1198,7 @@ def handle_proof_photo(message: dict):
     chat_id = message["chat"]["id"]
     st = get_user(chat_id)
 
-    if st.get("awaiting") not in ["photo", "pubg_photo"]:
+    if st.get("awaiting") not in ["photo", "pubg_photo", "telegram_premium_photo"]:
         return False
 
     photos = message.get("photo", [])
@@ -958,7 +1213,9 @@ def handle_proof_photo(message: dict):
     selected_product = st.get("selected_product", "")
     selected_currency = st.get("selected_currency", "")
 
-    if PRODUCTS.get(selected_product, {}).get("flow") == "pubg":
+    flow = PRODUCTS.get(selected_product, {}).get("flow")
+
+    if flow == "pubg":
         caption = f"""🎮 صورة إثبات دفع PUBG جديدة
 
 👤 الاسم: {first_name}
@@ -970,9 +1227,7 @@ def handle_proof_photo(message: dict):
 
 💳 العملة:
 {selected_currency}"""
-
         admin_notify_photo(file_id, caption)
-
         st["awaiting"] = "pubg_id"
         send_message(
             chat_id,
@@ -988,6 +1243,32 @@ def handle_proof_photo(message: dict):
         )
         return True
 
+    if flow == "telegram_premium":
+        caption = f"""💎 صورة إثبات دفع Telegram Premium جديدة
+
+👤 الاسم: {first_name}
+🆔 user_id: {chat_id}
+🔗 username: @{username if username else 'none'}
+
+📦 المنتج:
+{selected_product}
+
+💳 العملة:
+{selected_currency}"""
+        admin_notify_photo(file_id, caption)
+        st["awaiting"] = "telegram_premium_username"
+        send_message(
+            chat_id,
+            """✅ تم استلام صورة الدفع بنجاح.
+
+📨 الآن أرسل يوزر تيليجرام الخاص بك بشكل صحيح.
+
+مثال:
+@username""",
+            ["⬅️ رجوع إلى القائمة الرئيسية", "📩 الدعم"]
+        )
+        return True
+
     caption = f"""📸 صورة إثبات دفع جديدة
 
 👤 الاسم: {first_name}
@@ -999,9 +1280,7 @@ def handle_proof_photo(message: dict):
 
 💳 العملة:
 {selected_currency}"""
-
     admin_notify_photo(file_id, caption)
-
     st["awaiting"] = None
     send_message(
         chat_id,
@@ -1086,17 +1365,60 @@ def handle_message(message: dict):
 
     if text == "📄 إرسال TXID":
         selected_product = st.get("selected_product", "")
-        if PRODUCTS.get(selected_product, {}).get("flow") == "pubg":
+        flow = PRODUCTS.get(selected_product, {}).get("flow")
+        if flow == "pubg":
             st["awaiting"] = "pubg_txid"
+        elif flow == "telegram_premium":
+            st["awaiting"] = "telegram_premium_txid"
+            send_message(chat_id, "🧾 أرسل TXID هنا الآن.", ["⬅️ رجوع إلى المنتجات"])
+            return
         else:
             st["awaiting"] = "txid"
         send_message(chat_id, "🧾 أرسل TXID هنا الآن.", ["⬅️ رجوع إلى المنتجات"])
         return
 
+    if st.get("awaiting") == "telegram_premium_txid":
+        username = message.get("from", {}).get("username", "")
+        first_name = message.get("from", {}).get("first_name", "")
+        selected_product = st.get("selected_product", "")
+        selected_currency = st.get("selected_currency", "")
+
+        admin_notify(
+            f"""💎 إثبات دفع Telegram Premium جديد (TXID)
+
+👤 الاسم: {first_name}
+🆔 user_id: {chat_id}
+🔗 username: @{username if username else 'none'}
+
+📦 المنتج:
+{selected_product}
+
+💳 العملة:
+{selected_currency}
+
+🧾 TXID:
+{text}"""
+        )
+        st["awaiting"] = "telegram_premium_username"
+        send_message(
+            chat_id,
+            """✅ تم استلام TXID بنجاح.
+
+📨 الآن أرسل يوزر تيليجرام الخاص بك بشكل صحيح.
+
+مثال:
+@username""",
+            ["⬅️ رجوع إلى القائمة الرئيسية", "📩 الدعم"]
+        )
+        return
+
     if text == "📸 إرسال صورة الدفع":
         selected_product = st.get("selected_product", "")
-        if PRODUCTS.get(selected_product, {}).get("flow") == "pubg":
+        flow = PRODUCTS.get(selected_product, {}).get("flow")
+        if flow == "pubg":
             st["awaiting"] = "pubg_photo"
+        elif flow == "telegram_premium":
+            st["awaiting"] = "telegram_premium_photo"
         else:
             st["awaiting"] = "photo"
         send_message(chat_id, "📸 أرسل صورة الدفع هنا الآن.", ["⬅️ رجوع إلى المنتجات"])
